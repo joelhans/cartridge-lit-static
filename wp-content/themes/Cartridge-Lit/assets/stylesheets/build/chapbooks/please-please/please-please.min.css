@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Vesper+Libre");
+@import url("https://fonts.googleapis.com/css?family=Cardo:400:400i");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:400i");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:after, blockquote:before, q:after, q:before {content: "";content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+blockquote, ol, p, span, ul {color: #303030;font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1.2rem;line-height: 1.8rem;margin-bottom: 1.2rem;}
+em, i {font-style: italic;line-height: 1;}
+b, strong {font-weight: 600;}
+h1, h2, h3, h4, h5, h6 {color: #303030;font-family: Crimson Text,Georgia,serif;font-weight: 600;font-size: 2rem;line-height: 3rem;}
+a {color: #c02942;text-decoration: none;}
+a:hover {color: #542437;}
+blockquote {padding-left: 1.4rem;border-left: 5px solid #542437;}
+[class^=poetry-tab] {display: inline-block;}
+.poetry-tab-one {width: 3rem;}
+.poetry-tab-two {width: 6rem;}
+.poetry-tab-three {width: 9rem;}
+.poetry-tab-four {width: 12rem;}
+.poetry-tab-six {width: 18rem;}
+#gradient {position: fixed;width: 100vw;height: 100vh;padding: 0;margin: 0;background-color: #fff;z-index: 0;}
+.pp-container {max-width: 80em;margin-left: auto;margin-right: auto;position: relative;padding-top: 12rem;padding-bottom: 8rem;text-align: left;z-index: 1;}
+.pp-container:after {content: " ";display: block;clear: both;}
+.pp-title {box-sizing: border-box;width: 100%;float: left;padding-left: 3.78788%;padding-right: 3.78788%;height: 100vh;margin-bottom: 2rem;}
+.pp-title h1 {font-family: Cardo,sans-serif;font-size: 4rem;font-weight: 400;line-height: 6rem;margin-bottom: 6rem;text-align: left;}
+@media (min-width:0em) and (max-width:40em) {.pp-title h1 {font-family: Cardo,sans-serif;font-size: 3rem;font-weight: 400;line-height: 4.5rem;margin-bottom: 4.5rem;}}
+.pp-title h2 {font-family: Josefin Sans,sans-serif;font-size: 2rem;font-weight: 400;line-height: 3rem;margin-bottom: 3rem;}
+@media (min-width:0em) and (max-width:40em) {.pp-title h2 {font-family: Josefin Sans,sans-serif;font-size: 1.7rem;font-weight: 400;line-height: 2.55rem;margin-bottom: 2.55rem;}}
+.pp-poem {box-sizing: border-box;width: 100%;float: left;padding-left: 3.78788%;padding-right: 3.78788%;color: #000;text-align: justify;margin-bottom: 12rem;}
+@media (min-width:0em) and (max-width:66em) {.pp-poem {width: 100%;}}
+.pp-poem h1 {font-family: Noto Serif,sans-serif;font-size: 3rem;font-weight: 400;line-height: 4.5rem;margin-bottom: 6rem;color: rgba(48,48,48,.9);font-style: italic;-webkit-transform: translateZ(0);}
+@media (min-width:47em) and (max-width:54em) {.pp-poem h1 {font-family: Noto Serif,sans-serif;font-size: 2.2rem;font-weight: 400;line-height: 3.3rem;margin-bottom: 3.3rem;}}
+@media (min-width:0em) and (max-width:47em) {.pp-poem h1 {font-family: Noto Serif,sans-serif;font-size: 1.8rem;font-weight: 400;line-height: 2.7rem;margin-bottom: 2.7rem;}}
+.pp-poem p {font-family: Cardo,sans-serif;font-size: 1.4rem;font-weight: 400;line-height: 2.1rem;margin-bottom: 2.1rem;}
+@media (min-width:80em) {.pp-poem p {font-family: Cardo,sans-serif;font-size: 1.6rem;font-weight: 400;line-height: 2.4rem;margin-bottom: 2.4rem;}}
+@media (min-width:47em) and (max-width:54em) {.pp-poem p {font-family: Cardo,sans-serif;font-size: 1.2rem;font-weight: 400;line-height: 1.8rem;margin-bottom: 1.8rem;}}
+@media (min-width:0em) and (max-width:47em) {.pp-poem p {font-family: Cardo,sans-serif;font-size: 1rem;font-weight: 400;line-height: 1.5rem;margin-bottom: 1.5rem;}}
+.pp-indent-1 {text-indent: 3rem;}
+@media (min-width:47em) and (max-width:54em) {.pp-indent-1 {text-indent: 2.25rem;}}
+@media (min-width:0em) and (max-width:47em) {.pp-indent-1 {text-indent: 1.5rem;}}
+.pp-indent-2 {text-indent: 6rem;}
+@media (min-width:47em) and (max-width:54em) {.pp-indent-2 {text-indent: 4.5rem;}}
+@media (min-width:0em) and (max-width:47em) {.pp-indent-2 {text-indent: 3rem;}}
+.pp-indent-3 {text-indent: 9rem;}
+@media (min-width:47em) and (max-width:54em) {.pp-indent-3 {text-indent: 6.75rem;}}
+@media (min-width:0em) and (max-width:47em) {.pp-indent-3 {text-indent: 4.5rem;}}
+.pp-indent-4 {text-indent: 12rem;}
+@media (min-width:47em) and (max-width:54em) {.pp-indent-4 {text-indent: 9rem;}}
+@media (min-width:0em) and (max-width:47em) {.pp-indent-4 {text-indent: 6rem;}}
+.pp-indent-5 {text-indent: 15rem;}
+@media (min-width:47em) and (max-width:54em) {.pp-indent-5 {text-indent: 11.25rem;}}
+@media (min-width:0em) and (max-width:47em) {.pp-indent-5 {text-indent: 7.5rem;}}
+.pp-indent-6 {text-indent: 18rem;}
+@media (min-width:47em) and (max-width:54em) {.pp-indent-6 {text-indent: 13.5rem;}}
+@media (min-width:0em) and (max-width:47em) {.pp-indent-6 {text-indent: 9rem;}}
+.pp-indent-7 {text-indent: 21rem;}
+@media (min-width:47em) and (max-width:54em) {.pp-indent-7 {text-indent: 15.75rem;}}
+@media (min-width:0em) and (max-width:47em) {.pp-indent-7 {text-indent: 10.5rem;}}
+.pp-indent-8 {text-indent: 24rem;}
+@media (min-width:47em) and (max-width:54em) {.pp-indent-8 {text-indent: 18rem;}}
+@media (min-width:0em) and (max-width:47em) {.pp-indent-8 {text-indent: 12rem;}}
+.pp-acknowledgments {box-sizing: border-box;width: 100%;float: left;padding-left: 3.78788%;padding-right: 3.78788%;}
+.pp-acknowledgments h1 {font-family: Josefin Sans,sans-serif;font-size: 2.4rem;font-weight: 400;line-height: 3.6rem;margin-bottom: 3.6rem;}
+@media (min-width:0em) and (max-width:40em) {.pp-acknowledgments h1 {font-family: Josefin Sans,sans-serif;font-size: 2rem;font-weight: 400;line-height: 3rem;margin-bottom: 3rem;}}
+.pp-acknowledgments p {font-family: Cardo,sans-serif;font-size: 1.4rem;font-weight: 400;line-height: 2.1rem;margin-bottom: 2.1rem;}
+@media (min-width:80em) {.pp-acknowledgments p {font-family: Cardo,sans-serif;font-size: 1.6rem;font-weight: 400;line-height: 2.4rem;margin-bottom: 2.4rem;}}
+@media (min-width:47em) and (max-width:54em) {.pp-acknowledgments p {font-family: Cardo,sans-serif;font-size: 1.2rem;font-weight: 400;line-height: 1.8rem;margin-bottom: 1.8rem;}}
+@media (min-width:0em) and (max-width:47em) {.pp-acknowledgments p {font-family: Cardo,sans-serif;font-size: 1rem;font-weight: 400;line-height: 1.5rem;margin-bottom: 1.5rem;}}
+.pp-back {margin-top: 8rem;}
+svg {width: 100%;}
+.svg--title {margin-bottom: 2rem;}
+.three--line svg {margin-bottom: 4rem;}
+.title--line, .title--line2 {font-family: Cardo;font-size: 6rem;}
+.text--line, .text--line2, .text--line3 {font-family: Cardo;font-size: 4rem;}
+.text-copy {fill: none;stroke: #542437;stroke-width: 1px;stroke-dashoffset: 400;stroke-dasharray: 400;transition: stroke-dashoffset 15s linear;}
+.animated .text-copy {stroke-dashoffset: 0;}

@@ -1,0 +1,540 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:after, blockquote:before, q:after, q:before {content: "";content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+html {box-sizing: border-box;}
+*, :after, :before {box-sizing: inherit;}
+body {background: #fff;overflow-x: hidden;color: #303030;}
+blockquote, ol, p, span, ul {color: #303030;font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1.2rem;line-height: 1.8rem;margin-bottom: 1.2rem;}
+em, i {font-style: italic;line-height: 1;}
+b, strong {font-weight: 600;}
+h1, h2, h3, h4, h5, h6 {color: #303030;font-family: Crimson Text,Georgia,serif;font-weight: 600;font-size: 2rem;line-height: 3rem;}
+a {color: #c02942;text-decoration: none;}
+a:hover {color: #542437;}
+blockquote {padding-left: 1.4rem;border-left: 5px solid #542437;}
+[class^=poetry-tab] {display: inline-block;}
+.poetry-tab-one {width: 3rem;}
+.poetry-tab-two {width: 6rem;}
+.poetry-tab-three {width: 9rem;}
+.poetry-tab-four {width: 12rem;}
+.poetry-tab-six {width: 18rem;}
+#header {width: 100%;height: 170px;position: relative;background: #0e1710;}
+#header .header-bg {height: 170px;position: absolute;left: -98px;}
+#header .container {max-width: 70em;margin-left: auto;margin-right: auto;height: 170px;position: relative;}
+#header .container:after {content: " ";display: block;clear: both;}
+#header .container h1.site-title {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 3rem;line-height: 4.5rem;display: inline-block;position: relative;top: 55px;left: 200px;}
+#header .container h1.site-title a {color: #fff;}
+#header .container h1.site-title a:hover {color: #c02942;}
+nav.colophon {margin-left: 1.38889%;margin-right: 1.38889%;position: absolute;bottom: 45px;right: 0;}
+nav.colophon a {font-family: Ubuntu,sans-serif;font-weight: 300;font-size: .8rem;line-height: 1.2rem;margin-left: 2rem;}
+nav.colophon a:hover {color: #d95b43;}
+nav.categories {margin-left: 1.38889%;margin-right: 1.38889%;position: absolute;bottom: .5rem;right: 0;}
+nav.categories a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;line-height: .9rem;margin-left: 2rem;padding-bottom: .5rem;}
+nav.categories a:hover {color: #ecd078;}
+.header-border {width: 100%;height: 0;border-bottom: 3px solid #542437;}
+#page {max-width: 70em;margin-left: auto;margin-right: auto;margin-top: 64px;margin-top: 4rem;}
+#page:after {content: " ";display: block;clear: both;}
+.nine-stack {width: 96.2963%;float: left;margin-bottom: 32px;margin-bottom: 2rem;}
+.nine-stack a.image {width: 29.62963%;float: left;overflow: hidden;height: 200px;margin-top: 8px;background-size: cover;background-position: 50% 50%;background-clip: content-box;}
+.nine-stack img {position: relative;height: 200px;left: -25%;}
+.nine-stack .meta {width: 62.96296%;float: left;margin-left: 1.85185%;margin-right: 1.85185%;}
+.nine-stack .meta img {max-width: 100%;}
+.pagination {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+.nav-newer {float: left;}
+.nav-newer, .nav-older {display: block;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;}
+.nav-older {float: right;}
+.airship-full .entry-title, .nine-stack .entry-title, .page-full .entry-title, .work-full .entry-title {color: #303030;font-family: Crimson Text,Georgia,serif;font-weight: 600;font-size: 3rem;line-height: 4.5rem;line-height: 3rem;font-style: italic;margin-bottom: .6rem;}
+.airship-full .entry-author, .nine-stack .entry-author, .page-full .entry-author, .work-full .entry-author {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.2rem;line-height: 1.8rem;color: #53777a;}
+.airship-full .entry-time, .nine-stack .entry-time, .page-full .entry-time, .work-full .entry-time {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;color: #542437;margin-bottom: 3rem;}
+.page-full .entry-title {color: #fff;}
+.page-full .entry-bg {position: absolute;left: 0;right: 0;top: 0;bottom: 0;background: rgba(33,33,33,.8);}
+.work-full .entry-title {text-align: center;}
+.work-full .entry-author {text-align: center;margin-bottom: .4rem;}
+.work-full .entry-time {display: block;text-align: center;}
+.airship-full .entry-title {font-style: normal;}
+.airship-full .entry-author {display: inline-block;margin-right: 2rem;}
+.airship-full .entry-time {display: inline-block;}
+.nine-stack .entry-title {font-family: Crimson Text,Georgia,serif;font-weight: 600;font-size: 2rem;line-height: 3rem;line-height: 2.4rem;font-style: normal;margin-bottom: .6rem;}
+.nine-stack .entry-author {display: inline-block;margin-right: 2rem;}
+.nine-stack .entry-time {display: inline-block;margin-bottom: .6rem;}
+.post-featured {position: relative;}
+.post-featured article {position: relative;width: 30.55556%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 25rem;margin-bottom: 2rem;border-radius: 2px;}
+.post-featured article .post-image {display: block;width: 100%;height: 50%;background-size: cover;background-position: 50% 50%;}
+.post-featured article .post-meta {width: 100%;padding: 1.2rem;background: rgba(84,36,55,.8);}
+@media (min-width:0em) and (max-width:60em) {.post-featured article .post-meta h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1.6rem;line-height: 2.4rem;}}
+.post-featured article .post-meta h2 {margin-right: 1rem;}
+.post-featured article .post-meta h2, .post-featured article .post-meta time {display: inline-block;}
+.post-featured article .post-category {position: absolute;top: .8rem;right: .8rem;}
+.post-featured article .post-category a {display: block;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6rem;line-height: .9rem;padding: .3rem .5rem;border: 2px solid #fff;border-radius: 2px;color: #fff;}
+.post-featured article .post-category a:after {position: absolute;left: -10px;bottom: -10px;width: 12px;height: 12px;border: 2px solid #fff;border-radius: 2px;content: "";}
+.post-featured article .post-category a:hover {color: #c02942;border: 2px solid #c02942;}
+.post-featured article .post-category a:hover:after {border: 2px solid #c02942;}
+.post-featured article .post-excerpt {width: 100%;padding: 1.2rem;background: rgba(84,36,55,.8);}
+.post-featured article .post-mask {position: absolute;bottom: 0;width: 100%;height: 80px;border-radius: 0 2px 2px 0;}
+.post-featured .featured-1, .post-featured .featured-2, .post-featured .featured-12, .post-featured .featured-13, .post-featured .featured-14 {overflow: hidden;}
+.post-featured .featured-1 .post-excerpt, .post-featured .featured-1 .post-meta, .post-featured .featured-2 .post-excerpt, .post-featured .featured-2 .post-meta, .post-featured .featured-12 .post-excerpt, .post-featured .featured-12 .post-meta, .post-featured .featured-13 .post-excerpt, .post-featured .featured-13 .post-meta, .post-featured .featured-14 .post-excerpt, .post-featured .featured-14 .post-meta {padding: 0;background: none;}
+.post-featured .featured-1 .post-meta h1, .post-featured .featured-2 .post-meta h1, .post-featured .featured-12 .post-meta h1, .post-featured .featured-13 .post-meta h1, .post-featured .featured-14 .post-meta h1 {padding-top: .6rem;line-height: 2rem;margin-bottom: .6rem;}
+.post-featured .featured-1 .post-meta h2, .post-featured .featured-2 .post-meta h2, .post-featured .featured-12 .post-meta h2, .post-featured .featured-13 .post-meta h2, .post-featured .featured-14 .post-meta h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #542437;margin-bottom: .4rem;}
+@media (min-width:0em) and (max-width:60em) {.post-featured .featured-1 .post-meta h2, .post-featured .featured-2 .post-meta h2, .post-featured .featured-12 .post-meta h2, .post-featured .featured-13 .post-meta h2, .post-featured .featured-14 .post-meta h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;}}
+.post-featured .featured-1 .post-meta time, .post-featured .featured-2 .post-meta time, .post-featured .featured-12 .post-meta time, .post-featured .featured-13 .post-meta time, .post-featured .featured-14 .post-meta time {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;}
+.post-featured .featured-1 .post-excerpt p, .post-featured .featured-2 .post-excerpt p, .post-featured .featured-12 .post-excerpt p, .post-featured .featured-13 .post-excerpt p, .post-featured .featured-14 .post-excerpt p {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1rem;line-height: 1.5rem;}
+.post-featured .featured-1 .post-mask, .post-featured .featured-2 .post-mask, .post-featured .featured-12 .post-mask, .post-featured .featured-13 .post-mask, .post-featured .featured-14 .post-mask {background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,#fff);}
+.post-featured .featured-3, .post-featured .featured-5 {height: 17.75rem;}
+.post-featured .featured-4, .post-featured .featured-6 {height: 11.5rem;width: 30.55556%;float: right;margin-left: 1.38889%;margin-right: 1.38889%;}
+.post-featured .featured-3 {background: #53777a;background-image: none !important;overflow: hidden;}
+.post-featured .featured-3 .post-image {display: none;}
+.post-featured .featured-3 .post-meta {padding-top: 3.4rem;padding-bottom: 1.6rem;background: #53777a;border-radius: 2px;}
+.post-featured .featured-3 .post-meta h1 {line-height: 2rem;margin-bottom: .6rem;}
+.post-featured .featured-3 .post-meta h1 a {color: #fff;}
+.post-featured .featured-3 .post-meta h1 a:hover {color: #c02942;}
+.post-featured .featured-3 .post-meta h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #ecd078;}
+@media (min-width:0em) and (max-width:60em) {.post-featured .featured-3 .post-meta h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;}}
+.post-featured .featured-3 .post-meta time {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;}
+.post-featured .featured-3 .post-excerpt {height: 50%;padding-top: 0;background: #53777a;border-radius: 2px;}
+.post-featured .featured-3 .post-excerpt p {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1rem;line-height: 1.5rem;color: #fff;}
+.post-featured .featured-3 .post-mask {height: 100px;background: linear-gradient(180deg,rgba(83,119,122,0) 0,#53777a 90%);}
+.post-featured .featured-6 .post-image {position: absolute;height: 100%;}
+.post-featured .featured-6 .post-meta {position: relative;top: 50%;transform: translateY(-50%);background: none;z-index: 1;}
+.post-featured .featured-6 .post-meta h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1.8rem;line-height: 2.7rem;line-height: 1.8rem;margin-bottom: .6rem;}
+.post-featured .featured-6 .post-meta h1 a {color: #fff;}
+.post-featured .featured-6 .post-meta h1 a:hover {color: #c02942;}
+.post-featured .featured-6 .post-meta h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #ecd078;}
+@media (min-width:0em) and (max-width:60em) {.post-featured .featured-6 .post-meta h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;}}
+.post-featured .featured-6 .post-meta time {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;color: #fff;}
+.post-featured .featured-6 .post-excerpt {display: none;}
+.post-featured .featured-6 .post-category {z-index: 1;}
+.post-featured .featured-6 .post-mask {top: 0;height: 100%;background: rgba(84,36,55,.8);}
+.post-featured .featured-5 {background: #c02942;}
+.post-featured .featured-5 .post-meta {position: relative;top: 25%;transform: translateY(-50%);background: none !important;}
+.post-featured .featured-5 .post-meta h1 {line-height: 2rem;}
+.post-featured .featured-5 .post-meta h1 a {color: #fff;}
+.post-featured .featured-5 .post-meta h1 a:hover {color: #542437;}
+.post-featured .featured-5 .post-meta h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #ecd078;}
+@media (min-width:0em) and (max-width:60em) {.post-featured .featured-5 .post-meta h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;}}
+.post-featured .featured-5 .post-meta time {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;color: #fff;}
+.post-featured .featured-5 .post-excerpt, .post-featured .featured-5 .post-mask {display: none;}
+.post-featured .featured-4 {background: #542437;background-image: none !important;}
+.post-featured .featured-4:after {display: block;position: absolute;left: -12px;bottom: -12px;width: 14px;height: 14px;border: 2px solid #542437;border-radius: 2px;content: "";}
+.post-featured .featured-4 .post-image {display: none;}
+.post-featured .featured-4 .post-meta {position: relative;top: 50%;transform: translateY(-50%);}
+.post-featured .featured-4 .post-meta h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1.8rem;line-height: 2.7rem;line-height: 1.8rem;margin-bottom: .6rem;}
+.post-featured .featured-4 .post-meta h1 a {color: #fff;}
+.post-featured .featured-4 .post-meta h1 a:hover {color: #c02942;}
+.post-featured .featured-4 .post-meta h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #ecd078;}
+@media (min-width:0em) and (max-width:60em) {.post-featured .featured-4 .post-meta h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;}}
+.post-featured .featured-4 .post-meta time {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;color: #fff;}
+.post-featured .featured-4 .post-excerpt, .post-featured .featured-4 .post-mask {display: none;}
+.post-featured .featured-7, .post-featured .featured-8, .post-featured .featured-9, .post-featured .featured-10, .post-featured .featured-11 {width: 17.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 12.5rem;margin-top: 3rem;}
+.post-featured .featured-7 .post-image, .post-featured .featured-8 .post-image, .post-featured .featured-9 .post-image, .post-featured .featured-10 .post-image, .post-featured .featured-11 .post-image {position: absolute;top: 0;left: 0;height: 100%;}
+.post-featured .featured-7 .post-meta, .post-featured .featured-8 .post-meta, .post-featured .featured-9 .post-meta, .post-featured .featured-10 .post-meta, .post-featured .featured-11 .post-meta {position: relative;height: 100%;}
+.post-featured .featured-7 .post-meta h1, .post-featured .featured-8 .post-meta h1, .post-featured .featured-9 .post-meta h1, .post-featured .featured-10 .post-meta h1, .post-featured .featured-11 .post-meta h1 {position: absolute;bottom: 3.4rem;padding-right: 1.2rem;font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1.4rem;line-height: 2.1rem;line-height: 1.4rem;}
+.post-featured .featured-7 .post-meta h1 a, .post-featured .featured-8 .post-meta h1 a, .post-featured .featured-9 .post-meta h1 a, .post-featured .featured-10 .post-meta h1 a, .post-featured .featured-11 .post-meta h1 a {color: #fff;}
+.post-featured .featured-7 .post-meta h1 a:hover, .post-featured .featured-8 .post-meta h1 a:hover, .post-featured .featured-9 .post-meta h1 a:hover, .post-featured .featured-10 .post-meta h1 a:hover, .post-featured .featured-11 .post-meta h1 a:hover {color: #c02942;}
+.post-featured .featured-7 .post-meta h2, .post-featured .featured-8 .post-meta h2, .post-featured .featured-9 .post-meta h2, .post-featured .featured-10 .post-meta h2, .post-featured .featured-11 .post-meta h2 {position: absolute;bottom: 1.2rem;padding-right: 1.2rem;margin-right: 0;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #ecd078;}
+@media (min-width:0em) and (max-width:60em) {.post-featured .featured-7 .post-meta h2, .post-featured .featured-8 .post-meta h2, .post-featured .featured-9 .post-meta h2, .post-featured .featured-10 .post-meta h2, .post-featured .featured-11 .post-meta h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;}}
+.post-featured .featured-7 .post-category, .post-featured .featured-7 .post-excerpt, .post-featured .featured-7 .post-mask, .post-featured .featured-7 .post-meta time, .post-featured .featured-8 .post-category, .post-featured .featured-8 .post-excerpt, .post-featured .featured-8 .post-mask, .post-featured .featured-8 .post-meta time, .post-featured .featured-9 .post-category, .post-featured .featured-9 .post-excerpt, .post-featured .featured-9 .post-mask, .post-featured .featured-9 .post-meta time, .post-featured .featured-10 .post-category, .post-featured .featured-10 .post-excerpt, .post-featured .featured-10 .post-mask, .post-featured .featured-10 .post-meta time, .post-featured .featured-11 .post-category, .post-featured .featured-11 .post-excerpt, .post-featured .featured-11 .post-mask, .post-featured .featured-11 .post-meta time {display: none;}
+.post-featured .featured-12, .post-featured .featured-13, .post-featured .featured-14 {height: 30rem;margin-top: 3rem;}
+.post-featured .featured-12 .post-image, .post-featured .featured-13 .post-image, .post-featured .featured-14 .post-image {height: 200px;}
+.post-featured [class^=featured-chap-] {width: 30.55556%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 37.5rem;padding: 0;}
+.post-featured [class^=featured-chap-] .chap-top {width: 100%;height: 50%;position: relative;text-align: center;transition: background .3s ease-in-out;z-index: 4;}
+.post-featured [class^=featured-chap-] .chap-top a {position: relative;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #fff;padding: .4rem .8rem;border: 2px solid #fff;border-radius: 2px;display: inline-block;margin-top: 10rem;opacity: 0;transition: opacity .3s ease-in-out;}
+.post-featured [class^=featured-chap-] .chap-top a:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #fff;border-radius: 2px;content: "";}
+.post-featured [class^=featured-chap-] .chap-top a:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #c02942;padding: .4rem .8rem;border: 2px solid #c02942;border-radius: 2px;}
+.post-featured [class^=featured-chap-] .chap-top a:hover:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #c02942;border-radius: 2px;content: "";}
+.post-featured [class^=featured-chap-] .chap-bottom {width: 100%;height: 50%;padding: 1.2rem;position: relative;background: rgba(84,36,55,.8);z-index: 4;}
+.post-featured [class^=featured-chap-] .chap-bottom h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2.4rem;line-height: 3.6rem;line-height: 2.8rem;margin-bottom: 1.4rem;}
+@media (min-width:0em) and (max-width:60em) {.post-featured [class^=featured-chap-] .chap-bottom h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2rem;line-height: 3rem;line-height: 2rem;}}
+.post-featured [class^=featured-chap-] .chap-bottom h1 a {color: #fff;}
+.post-featured [class^=featured-chap-] .chap-bottom h1 a:hover {color: #c02942;}
+.post-featured [class^=featured-chap-] .chap-bottom h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #ecd078;margin-bottom: 1.4rem;}
+@media (min-width:0em) and (max-width:60em) {.post-featured [class^=featured-chap-] .chap-bottom h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;}}
+.post-featured [class^=featured-chap-] .chap-bottom p {color: #fff;}
+.post-featured [class^=featured-chap-]:hover>.chap-top {background: rgba(84,36,55,.8);}
+.post-featured [class^=featured-chap-]:hover>.chap-top a {opacity: 1;}
+.post-featured .featured-chap-1 {width: 30.55556%;float: right;margin-left: 1.38889%;margin-right: 1.38889%;}
+.post-featured .featured-chap-3, .post-featured .featured-chap-4, .post-featured .featured-chap-5 {margin-top: 3rem;}
+#fog {height: 100%;left: 0;position: absolute;top: 0;width: 100%;}
+.sidebar {width: 22.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+.sidebar [class^=sidebar] {border-bottom: 1px solid hsla(0,0%,60%,.2);padding-top: .8rem;padding-bottom: .8rem;}
+.sidebar [class^=sidebar]:last-of-type {border-bottom: 0;}
+.sidebar [class^=sidebar]:first-of-type {padding-top: 0;}
+.sidebar [class^=sidebar] h1 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.2rem;line-height: 1.8rem;margin-bottom: 12.8px;margin-bottom: .8rem;color: #542437;}
+.sidebar [class^=sidebar] p {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1rem;line-height: 1.5rem;margin-bottom: 0;}
+.sidebar .sidebar-search input.search-submit {position: absolute;top: 0;right: 0;}
+.sidebar .sidebar-about p a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8rem;line-height: 1.2rem;}
+.sidebar .sidebar-cats a, .sidebar .sidebar-social a, .sidebar .sidebar-tags a {display: inline-block;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;margin-right: 16px;margin-right: 1rem;}
+.sidebar .sidebar-archive ul {list-style-type: none;margin-bottom: 0;}
+.sidebar .sidebar-archive li {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;}
+.work-full {width: 97.22222%;}
+.airship-full, .page-full, .work-full {float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+.airship-full, .page-full {width: 72.22222%;}
+.entry-header, .page-header {height: 300px;position: relative;margin-bottom: 64px;margin-bottom: 4rem;background-size: cover;background-position: 50% 50%;}
+.entry-header {height: 400px;opacity: 1;}
+.work-full .meta {width: 63.88889%;float: left;margin-left: 1.38889%;margin-left: 18.05556%;margin-right: 1.38889%;position: relative;padding-top: 96px;padding-top: 6rem;z-index: 3;}
+.airship-full .meta, .page-full .page-header .meta {position: relative;padding: 96px 64px 0;padding: 6rem 4rem 0;z-index: 3;}
+.work-full .entry-content {width: 63.88889%;float: left;margin-left: 1.38889%;margin-left: 18.05556%;margin-right: 1.38889%;position: relative;}
+.airship-full .entry-content, .page-full .entry-content {position: relative;}
+.airship-full aside, .page-full aside, .work-full aside {width: 70.83333%;float: left;margin-left: 2.08333%;margin-left: 14.58333%;margin-right: 2.08333%;margin-top: 32px;margin-top: 2rem;}
+.airship-full aside, .airship-full aside p, .page-full aside, .page-full aside p, .work-full aside, .work-full aside p {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;text-align: center;color: #53777a;}
+article.page {width: 63.88889%;float: left;margin-left: 1.38889%;margin-left: 18.05556%;margin-right: 1.38889%;}
+article.page h1.entry-title {text-align: center;margin-bottom: 4rem;}
+.airship {width: 72.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+.airship-desc {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #d95b43;margin-bottom: 32px;margin-bottom: 2rem;}
+.archives {width: 72.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+.archives>h1 {text-align: center;margin-bottom: 64px;margin-bottom: 4rem;}
+.masthead-editor {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin-bottom: 64px;margin-bottom: 4rem;}
+.masthead-editor .masthead-images {width: 47.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 300px;display: block;position: relative;margin: 0 auto;}
+.masthead-editor .masthead-images img {height: 300px;position: absolute;transition-duration: .5s;transition-property: opacity;transition-timing-function: ease-in-out;}
+.masthead-editor .masthead-images img:first-of-type {opacity: 0;z-index: 2;}
+.masthead-editor .masthead-images img:hover, .masthead-editor .masthead-images img:last-of-type {opacity: 1;}
+.masthead-editor div.masthead-bio {width: 47.22222%;float: right;margin-left: 1.38889%;margin-right: 1.38889%;height: 300px;}
+.masthead-editor div.masthead-bio p {position: relative;top: 50%;transform: translateY(-50%);}
+.masthead-editor div.masthead-bio a.masthead-twitter {position: relative;float: right;left: 14px;margin-top: 1rem;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #c02942;padding: .4rem .8rem;border: 2px solid #c02942;border-radius: 2px;transition: opacity .3s ease-in-out;}
+.masthead-editor div.masthead-bio a.masthead-twitter:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #c02942;border-radius: 2px;content: "";}
+.masthead-editor div.masthead-bio a.masthead-twitter:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #542437;padding: .4rem .8rem;border: 2px solid #542437;border-radius: 2px;}
+.masthead-editor div.masthead-bio a.masthead-twitter:hover:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #542437;border-radius: 2px;content: "";}
+#colophon {position: relative;width: 100%;height: 800px;background: url("../../images/ffiv_sunset.png");background-size: cover;background-position: 50% 50%;margin-top: 96px;margin-top: 6rem;padding: 64px;padding: 4rem;}
+#colophon p {color: #fff;}
+#colophon a {display: block;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;color: #d95b43;}
+#colophon a:hover {color: #ecd078;}
+#colophon .footer-wrap {max-width: 70em;margin-left: auto;margin-right: auto;}
+#colophon .footer-wrap:after {content: " ";display: block;clear: both;}
+#colophon .footer-nav {width: 22.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+#colophon .footer-nav a:first-of-type {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.2rem;line-height: 1.8rem;}
+#colophon .footer-genres, #colophon .footer-rights, #colophon .footer-social {width: 22.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin-top: 27.2px;margin-top: 1.7rem;}
+#colophon .footer-rights {position: relative;}
+#colophon .footer-rights p {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;}
+#colophon .phoenix-down {position: absolute;width: 80px;top: -35px;right: -100px;}
+.entry-content img {max-width: 100%;height: auto;}
+.entry-content img.aligncenter {display: block;margin: 0 auto;}
+iframe {max-width: 100%;}
+hr {position: relative;height: 20px;border: 0;background: url("../../images/cartridge_lit_logo.png");background-size: 20px 20px;background-repeat: no-repeat;background-position: 50%;margin-top: 2.4rem;margin-bottom: 2.4rem;}
+hr:before {left: 42%;}
+hr:after, hr:before {content: "";position: absolute;display: block;width: 20px;height: 20px;background: url("../../images/cartridge_lit_logo.png");background-size: 20px 20px;}
+hr:after {right: 42%;}
+.issue-razzle-dazzle, .post-featured .featured-issue.issue-razzle-dazzle {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 300px;margin-top: 3rem;background: #000;text-align: center;}
+.issue-razzle-dazzle .issue-content, .post-featured .featured-issue.issue-razzle-dazzle .issue-content {position: relative;top: 50%;transform: translateY(-50%);}
+.issue-razzle-dazzle h1, .post-featured .featured-issue.issue-razzle-dazzle h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;}
+.issue-razzle-dazzle h1 a, .post-featured .featured-issue.issue-razzle-dazzle h1 a {color: #3b8686;}
+.issue-razzle-dazzle h1 a:hover, .post-featured .featured-issue.issue-razzle-dazzle h1 a:hover {color: #cff09e;}
+.issue-razzle-dazzle p, .post-featured .featured-issue.issue-razzle-dazzle p {color: #fff;margin-bottom: 0;}
+.issue-razzle-dazzle p:last-of-type, .post-featured .featured-issue.issue-razzle-dazzle p:last-of-type {margin-bottom: 1.2rem;}
+.issue-razzle-dazzle a.issue-bottom, .post-featured .featured-issue.issue-razzle-dazzle a.issue-bottom {position: relative;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #fff;padding: .4rem .8rem;border: 2px solid #fff;border-radius: 2px;display: inline-block;transition: opacity .3s ease-in-out;}
+.issue-razzle-dazzle a.issue-bottom:after, .post-featured .featured-issue.issue-razzle-dazzle a.issue-bottom:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #fff;border-radius: 2px;content: "";}
+.issue-razzle-dazzle a.issue-bottom:hover, .post-featured .featured-issue.issue-razzle-dazzle a.issue-bottom:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #cff09e;padding: .4rem .8rem;border: 2px solid #cff09e;border-radius: 2px;}
+.issue-razzle-dazzle a.issue-bottom:hover:after, .post-featured .featured-issue.issue-razzle-dazzle a.issue-bottom:hover:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #cff09e;border-radius: 2px;content: "";}
+body[class*=issues2015-june] {background: #000;color: #fff;}
+body[class*=issues2015-june] .issue-header {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin: 6rem 0 10rem;text-align: center;}
+body[class*=issues2015-june] .issue-header h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;color: #3b8686;}
+body[class*=issues2015-june] .issue-header h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.2rem;line-height: 1.8rem;color: #cff09e;}
+body[class*=issues2015-june] article {position: relative;width: 47.22222%;float: left;margin-left: 1.38889%;margin-left: 26.38889%;margin-right: 1.38889%;margin-bottom: 2rem;}
+body[class*=issues2015-june] article .issue-piece-title {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2.6rem;line-height: 3.9rem;line-height: 2.2rem;margin-bottom: .6rem;}
+body[class*=issues2015-june] article .issue-piece-title a {color: #a8dba8;}
+body[class*=issues2015-june] article .issue-piece-title a:hover {color: #cff09e;}
+body[class*=issues2015-june] article .issue-piece-author {display: inline-block;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #cff09e;}
+body[class*=issues2015-june] article .issue-piece-genre {display: inline-block;margin-left: 2rem;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;}
+body[class*=issues2015-june] article .issue-piece-genre a {color: #fff;}
+body[class*=issues2015-june] article .issue-piece-genre a:hover {color: #cff09e;}
+body[class*=issues2015-june] article .issue-piece-excerpt {position: relative;height: 200px;overflow: hidden;color: #fff;}
+body[class*=issues2015-june] article a.issue-piece-read {position: relative;top: -3px;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6rem;line-height: .9rem;color: #fff;padding: .4rem .8rem;padding: .2rem .3rem;border: 2px solid #fff;border-radius: 2px;display: inline-block;margin-left: 1rem;}
+body[class*=issues2015-june] article a.issue-piece-read:after {position: absolute;left: -10px;bottom: -10px;width: 10px;height: 10px;border: 2px solid #fff;border-radius: 2px;content: "";}
+body[class*=issues2015-june] article a.issue-piece-read:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6rem;line-height: .9rem;color: #cff09e;padding: .4rem .8rem;padding: .2rem .3rem;border: 2px solid #cff09e;border-radius: 2px;}
+body[class*=issues2015-june] article a.issue-piece-read:hover:after {position: absolute;left: -10px;bottom: -10px;width: 10px;height: 10px;border: 2px solid #cff09e;border-radius: 2px;content: "";}
+.issue-back.back-razzle-dazzle a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #c02942;padding: .4rem .8rem;border: 2px solid #c02942;border-radius: 2px;}
+.issue-back.back-razzle-dazzle a:after {position: absolute;left: -18px;bottom: -18px;width: 18px;height: 18px;border: 2px solid #c02942;border-radius: 2px;content: "";}
+.issue-back.back-razzle-dazzle a:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #542437;padding: .4rem .8rem;border: 2px solid #542437;border-radius: 2px;}
+.issue-back.back-razzle-dazzle a:hover:after {position: absolute;left: -18px;bottom: -18px;width: 18px;height: 18px;border: 2px solid #542437;border-radius: 2px;content: "";}
+.work-full aside.issue-back {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin-top: 4rem;}
+.work-full aside.issue-back a {position: relative;display: inline-block;transition: opacity .3s ease-in-out;}
+.issue-inter-sections, .post-featured .featured-issue.issue-inter-sections {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 300px;margin-top: 3rem;background: #ece7e1;text-align: center;}
+.issue-inter-sections .issue-content, .post-featured .featured-issue.issue-inter-sections .issue-content {position: relative;top: 50%;transform: translateY(-50%);}
+.issue-inter-sections h1, .post-featured .featured-issue.issue-inter-sections h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;}
+.issue-inter-sections h1 a, .post-featured .featured-issue.issue-inter-sections h1 a {color: #2e1130;}
+.issue-inter-sections h1 a:hover, .post-featured .featured-issue.issue-inter-sections h1 a:hover {color: #89b0c1;}
+.issue-inter-sections p, .post-featured .featured-issue.issue-inter-sections p {color: #303030;margin-bottom: 0;}
+.issue-inter-sections p:last-of-type, .post-featured .featured-issue.issue-inter-sections p:last-of-type {margin-bottom: 1.2rem;}
+.issue-inter-sections a.issue-bottom, .post-featured .featured-issue.issue-inter-sections a.issue-bottom {position: relative;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #4b4261;padding: .4rem .8rem;border: 2px solid #4b4261;border-radius: 2px;display: inline-block;transition: opacity .3s ease-in-out;}
+.issue-inter-sections a.issue-bottom:after, .post-featured .featured-issue.issue-inter-sections a.issue-bottom:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #4b4261;border-radius: 2px;content: "";}
+.issue-inter-sections a.issue-bottom:hover, .post-featured .featured-issue.issue-inter-sections a.issue-bottom:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #89b0c1;padding: .4rem .8rem;border: 2px solid #89b0c1;border-radius: 2px;}
+.issue-inter-sections a.issue-bottom:hover:after, .post-featured .featured-issue.issue-inter-sections a.issue-bottom:hover:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #89b0c1;border-radius: 2px;content: "";}
+body[class*=issues2016-january] {background: #ece7e1;color: #303030;}
+body[class*=issues2016-january] .issue-header {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin: 6rem 0 10rem;text-align: center;}
+body[class*=issues2016-january] .issue-header h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;color: #2e1130;}
+body[class*=issues2016-january] .issue-header h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.2rem;line-height: 1.8rem;color: #4b4261;}
+body[class*=issues2016-january] article {position: relative;width: 47.22222%;float: left;margin-left: 1.38889%;margin-left: 26.38889%;margin-right: 1.38889%;margin-bottom: 2rem;}
+body[class*=issues2016-january] article .issue-piece-title {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2.6rem;line-height: 3.9rem;line-height: 2.2rem;margin-bottom: .6rem;}
+body[class*=issues2016-january] article .issue-piece-title a {color: #2e1130;}
+body[class*=issues2016-january] article .issue-piece-title a:hover {color: #89b0c1;}
+body[class*=issues2016-january] article .issue-piece-author {display: inline-block;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #4b4261;}
+body[class*=issues2016-january] article .issue-piece-genre {display: inline-block;margin-left: 2rem;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;}
+body[class*=issues2016-january] article .issue-piece-genre a {color: #89b0c1;}
+body[class*=issues2016-january] article .issue-piece-genre a:hover {color: #4b4261;}
+body[class*=issues2016-january] article .issue-piece-excerpt {position: relative;height: 200px;overflow: hidden;color: #303030;}
+body[class*=issues2016-january] article a.issue-piece-read {position: relative;top: -3px;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6rem;line-height: .9rem;color: #2e1130;padding: .4rem .8rem;padding: .2rem .3rem;border: 2px solid #2e1130;border-radius: 2px;display: inline-block;margin-left: 1rem;}
+body[class*=issues2016-january] article a.issue-piece-read:after {position: absolute;left: -10px;bottom: -10px;width: 10px;height: 10px;border: 2px solid #2e1130;border-radius: 2px;content: "";}
+body[class*=issues2016-january] article a.issue-piece-read:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6rem;line-height: .9rem;color: #89b0c1;padding: .4rem .8rem;padding: .2rem .3rem;border: 2px solid #89b0c1;border-radius: 2px;}
+body[class*=issues2016-january] article a.issue-piece-read:hover:after {position: absolute;left: -10px;bottom: -10px;width: 10px;height: 10px;border: 2px solid #89b0c1;border-radius: 2px;content: "";}
+.issue-back.back-inter-sections a {color: #2e1130;border: 2px solid #2e1130;}
+.issue-back.back-inter-sections a:after {border: 2px solid #2e1130;}
+.issue-back.back-inter-sections a:hover {color: #89b0c1;border: 2px solid #89b0c1;}
+.issue-back.back-inter-sections a:hover:after {border: 2px solid #89b0c1;}
+.issue-solstice, .post-featured .featured-issue.issue-solstice {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 300px;margin-top: 3rem;background: #373b44;text-align: center;}
+.issue-solstice .issue-content, .post-featured .featured-issue.issue-solstice .issue-content {position: relative;top: 50%;transform: translateY(-50%);}
+.issue-solstice h1, .post-featured .featured-issue.issue-solstice h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;}
+.issue-solstice h1 a, .post-featured .featured-issue.issue-solstice h1 a {color: #e1b866;}
+.issue-solstice h1 a:hover, .post-featured .featured-issue.issue-solstice h1 a:hover {color: #73c8a9;}
+.issue-solstice p, .post-featured .featured-issue.issue-solstice p {color: #73c8a9;margin-bottom: 0;}
+.issue-solstice p:last-of-type, .post-featured .featured-issue.issue-solstice p:last-of-type {margin-bottom: 1.2rem;}
+.issue-solstice a.issue-bottom, .post-featured .featured-issue.issue-solstice a.issue-bottom {position: relative;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #dee1b6;padding: .4rem .8rem;border: 2px solid #dee1b6;border-radius: 2px;display: inline-block;transition: opacity .3s ease-in-out;}
+.issue-solstice a.issue-bottom:after, .post-featured .featured-issue.issue-solstice a.issue-bottom:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #dee1b6;border-radius: 2px;content: "";}
+.issue-solstice a.issue-bottom:hover, .post-featured .featured-issue.issue-solstice a.issue-bottom:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #73c8a9;padding: .4rem .8rem;border: 2px solid #73c8a9;border-radius: 2px;}
+.issue-solstice a.issue-bottom:hover:after, .post-featured .featured-issue.issue-solstice a.issue-bottom:hover:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #73c8a9;border-radius: 2px;content: "";}
+body[class*=issues2016-april] {background: #373b44;color: #303030;}
+body[class*=issues2016-april] .issue-header {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin: 6rem 0 10rem;text-align: center;}
+body[class*=issues2016-april] .issue-header h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;color: #e1b866;}
+body[class*=issues2016-april] .issue-header h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.2rem;line-height: 1.8rem;color: #dee1b6;}
+body[class*=issues2016-april] article {position: relative;box-sizing: border-box;width: 33.33333%;float: left;height: 300px;padding: 2rem;text-align: center;}
+body[class*=issues2016-april] article div {display: block;position: relative;top: 50%;transform: translateY(-50%);}
+body[class*=issues2016-april] article .issue-piece-title {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2.6rem;line-height: 3.9rem;line-height: 2.2rem;margin-bottom: 2rem;}
+body[class*=issues2016-april] article .issue-piece-title a {color: #e1b866;}
+body[class*=issues2016-april] article .issue-piece-title a:hover {color: #73c8a9;}
+body[class*=issues2016-april] article .issue-piece-author {color: #dee1b6;}
+body[class*=issues2016-april] article .issue-piece-author, body[class*=issues2016-april] article .issue-piece-genre {display: block;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;}
+body[class*=issues2016-april] article .issue-piece-genre a {color: #73c8a9;}
+body[class*=issues2016-april] article .issue-piece-genre a:hover {color: #dee1b6;}
+body[class*=issues2016-april] article .issue-piece-excerpt {position: relative;height: 200px;overflow: hidden;color: #73c8a9;}
+body[class*=issues2016-april] article a.issue-piece-read {position: relative;top: -3px;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6rem;line-height: .9rem;color: #e1b866;padding: .4rem .8rem;padding: .2rem .3rem;border: 2px solid #e1b866;border-radius: 2px;display: inline-block;margin-left: 1rem;}
+body[class*=issues2016-april] article a.issue-piece-read:after {position: absolute;left: -10px;bottom: -10px;width: 10px;height: 10px;border: 2px solid #e1b866;border-radius: 2px;content: "";}
+body[class*=issues2016-april] article a.issue-piece-read:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6rem;line-height: .9rem;color: #73c8a9;padding: .4rem .8rem;padding: .2rem .3rem;border: 2px solid #73c8a9;border-radius: 2px;}
+body[class*=issues2016-april] article a.issue-piece-read:hover:after {position: absolute;left: -10px;bottom: -10px;width: 10px;height: 10px;border: 2px solid #73c8a9;border-radius: 2px;content: "";}
+body[class*=issues2016-april] article .issue-piece-title a {color: #373b44;}
+body[class*=issues2016-april] article .issue-piece-author, body[class*=issues2016-april] article .issue-piece-genre a, body[class*=issues2016-april] article .issue-piece-title a:hover {color: #bd5532;}
+body[class*=issues2016-april] article .issue-piece-genre a:hover {color: #373b44;}
+body[class*=issues2016-april] article:first-of-type, body[class*=issues2016-april] article:nth-of-type(6), body[class*=issues2016-april] article:nth-of-type(8), body[class*=issues2016-april] article:nth-of-type(10) {background: #e1b866;}
+body[class*=issues2016-april] article:first-of-type .issue-piece-author, body[class*=issues2016-april] article:first-of-type .issue-piece-genre a, body[class*=issues2016-april] article:nth-of-type(6) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(6) .issue-piece-genre a, body[class*=issues2016-april] article:nth-of-type(8) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(8) .issue-piece-genre a, body[class*=issues2016-april] article:nth-of-type(10) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(10) .issue-piece-genre a {color: #dee1b6;}
+body[class*=issues2016-april] article:first-of-type .issue-piece-genre a:hover, body[class*=issues2016-april] article:nth-of-type(6) .issue-piece-genre a:hover, body[class*=issues2016-april] article:nth-of-type(8) .issue-piece-genre a:hover, body[class*=issues2016-april] article:nth-of-type(10) .issue-piece-genre a:hover {color: #373b44;}
+body[class*=issues2016-april] article:nth-of-type(2), body[class*=issues2016-april] article:nth-of-type(4), body[class*=issues2016-april] article:nth-of-type(9), body[class*=issues2016-april] article:nth-of-type(11) {background: #dee1b6;}
+body[class*=issues2016-april] article:nth-of-type(2) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(2) .issue-piece-genre a, body[class*=issues2016-april] article:nth-of-type(4) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(4) .issue-piece-genre a, body[class*=issues2016-april] article:nth-of-type(9) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(9) .issue-piece-genre a, body[class*=issues2016-april] article:nth-of-type(11) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(11) .issue-piece-genre a {color: #73c8a9;}
+body[class*=issues2016-april] article:nth-of-type(2) .issue-piece-genre a:hover, body[class*=issues2016-april] article:nth-of-type(4) .issue-piece-genre a:hover, body[class*=issues2016-april] article:nth-of-type(9) .issue-piece-genre a:hover, body[class*=issues2016-april] article:nth-of-type(11) .issue-piece-genre a:hover {color: #373b44;}
+body[class*=issues2016-april] article:nth-of-type(3), body[class*=issues2016-april] article:nth-of-type(5), body[class*=issues2016-april] article:nth-of-type(7), body[class*=issues2016-april] article:nth-of-type(12), body[class*=issues2016-april] article:nth-of-type(13) {background: #73c8a9;}
+body[class*=issues2016-april] article:nth-of-type(3) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(3) .issue-piece-genre a, body[class*=issues2016-april] article:nth-of-type(5) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(5) .issue-piece-genre a, body[class*=issues2016-april] article:nth-of-type(7) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(7) .issue-piece-genre a, body[class*=issues2016-april] article:nth-of-type(12) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(12) .issue-piece-genre a, body[class*=issues2016-april] article:nth-of-type(13) .issue-piece-author, body[class*=issues2016-april] article:nth-of-type(13) .issue-piece-genre a {color: #dee1b6;}
+body[class*=issues2016-april] article:nth-of-type(3) .issue-piece-genre a:hover, body[class*=issues2016-april] article:nth-of-type(5) .issue-piece-genre a:hover, body[class*=issues2016-april] article:nth-of-type(7) .issue-piece-genre a:hover, body[class*=issues2016-april] article:nth-of-type(12) .issue-piece-genre a:hover, body[class*=issues2016-april] article:nth-of-type(13) .issue-piece-genre a:hover {color: #373b44;}
+body[class*=issues2016-april] article:last-of-type {margin-left: 33.33333%;}
+.issue-back.back-solstice a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #e1b866;padding: .4rem .8rem;border: 2px solid #e1b866;border-radius: 2px;}
+.issue-back.back-solstice a:after {position: absolute;left: -18px;bottom: -18px;width: 18px;height: 18px;border: 2px solid #e1b866;border-radius: 2px;content: "";}
+.issue-back.back-solstice a:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #73c8a9;padding: .4rem .8rem;border: 2px solid #73c8a9;border-radius: 2px;}
+.issue-back.back-solstice a:hover:after {position: absolute;left: -18px;bottom: -18px;width: 18px;height: 18px;border: 2px solid #73c8a9;border-radius: 2px;content: "";}
+.issue-consequences, .post-featured .featured-issue.issue-consequences {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 300px;margin-top: 3rem;background: #2e2633;text-align: center;}
+.issue-consequences .issue-content, .post-featured .featured-issue.issue-consequences .issue-content {position: relative;top: 50%;transform: translateY(-50%);}
+.issue-consequences h1, .post-featured .featured-issue.issue-consequences h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;line-height: 3rem;margin-bottom: .6rem;}
+.issue-consequences h1 a, .post-featured .featured-issue.issue-consequences h1 a {color: #dce9be;}
+.issue-consequences h1 a:hover, .post-featured .featured-issue.issue-consequences h1 a:hover {color: #99173c;}
+.issue-consequences p, .post-featured .featured-issue.issue-consequences p {color: #99173c;margin-bottom: 0;}
+.issue-consequences p:last-of-type, .post-featured .featured-issue.issue-consequences p:last-of-type {margin-bottom: 1.2rem;}
+.issue-consequences a.issue-bottom, .post-featured .featured-issue.issue-consequences a.issue-bottom {position: relative;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #efffcd;padding: .4rem .8rem;border: 2px solid #efffcd;border-radius: 2px;display: inline-block;transition: opacity .3s ease-in-out;}
+.issue-consequences a.issue-bottom:after, .post-featured .featured-issue.issue-consequences a.issue-bottom:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #efffcd;border-radius: 2px;content: "";}
+.issue-consequences a.issue-bottom:hover, .post-featured .featured-issue.issue-consequences a.issue-bottom:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #99173c;padding: .4rem .8rem;border: 2px solid #99173c;border-radius: 2px;}
+.issue-consequences a.issue-bottom:hover:after, .post-featured .featured-issue.issue-consequences a.issue-bottom:hover:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #99173c;border-radius: 2px;content: "";}
+body[class*=issues2016-october] {background: #2e2633;color: #dce9be;}
+body[class*=issues2016-october] .issue-header {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin: 6rem 0 10rem;text-align: center;}
+body[class*=issues2016-october] .issue-header h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;color: #99173c;}
+body[class*=issues2016-october] .issue-header h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.2rem;line-height: 1.8rem;color: #dce9be;}
+body[class*=issues2016-october] article {position: relative;width: 47.22222%;float: left;margin-left: 1.38889%;margin-left: 26.38889%;margin-right: 1.38889%;margin-bottom: 5rem;}
+body[class*=issues2016-october] article .issue-piece-tease {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2.6rem;line-height: 3.9rem;line-height: 2.2rem;margin-bottom: .6rem;}
+body[class*=issues2016-october] article .issue-piece-tease a {display: block;color: #99173c;}
+body[class*=issues2016-october] article .issue-piece-tease a:hover {color: #efffcd;}
+body[class*=issues2016-october] article .issue-piece-meta {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #dce9be;}
+.issue-back.back-inter-sections a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #99173c;padding: .4rem .8rem;border: 2px solid #99173c;border-radius: 2px;}
+.issue-back.back-inter-sections a:after {position: absolute;left: -18px;bottom: -18px;width: 18px;height: 18px;border: 2px solid #99173c;border-radius: 2px;content: "";}
+.issue-back.back-inter-sections a:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #efffcd;padding: .4rem .8rem;border: 2px solid #efffcd;border-radius: 2px;}
+.issue-back.back-inter-sections a:hover:after {position: absolute;left: -18px;bottom: -18px;width: 18px;height: 18px;border: 2px solid #efffcd;border-radius: 2px;content: "";}
+.issue-next-gen, .post-featured .featured-issue.issue-next-gen {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 300px;margin-top: 3rem;background: #f7f7f7;text-align: center;}
+.issue-next-gen .issue-content, .post-featured .featured-issue.issue-next-gen .issue-content {position: relative;top: 50%;transform: translateY(-50%);}
+.issue-next-gen h1, .post-featured .featured-issue.issue-next-gen h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;line-height: 3rem;margin-bottom: .6rem;}
+.issue-next-gen h1 a, .post-featured .featured-issue.issue-next-gen h1 a {color: #0c79fc;}
+.issue-next-gen h1 a:hover, .post-featured .featured-issue.issue-next-gen h1 a:hover {color: #ff3b2f;}
+.issue-next-gen p, .post-featured .featured-issue.issue-next-gen p {color: #a3a3ac;margin-bottom: 0;}
+.issue-next-gen p:last-of-type, .post-featured .featured-issue.issue-next-gen p:last-of-type {margin-bottom: 1.2rem;}
+.issue-next-gen a.issue-bottom, .post-featured .featured-issue.issue-next-gen a.issue-bottom {position: relative;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #ff3b2f;padding: .4rem .8rem;border: 2px solid #ff3b2f;border-radius: 2px;display: inline-block;transition: opacity .3s ease-in-out;}
+.issue-next-gen a.issue-bottom:after, .post-featured .featured-issue.issue-next-gen a.issue-bottom:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #ff3b2f;border-radius: 2px;content: "";}
+.issue-next-gen a.issue-bottom:hover, .post-featured .featured-issue.issue-next-gen a.issue-bottom:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #0c79fc;padding: .4rem .8rem;border: 2px solid #0c79fc;border-radius: 2px;}
+.issue-next-gen a.issue-bottom:hover:after, .post-featured .featured-issue.issue-next-gen a.issue-bottom:hover:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #0c79fc;border-radius: 2px;content: "";}
+body[class*=issues2017-july] {background: #f7f7f7;color: #a3a3ac;}
+body[class*=issues2017-july] .issue-header {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin: 6rem 0 10rem;text-align: center;}
+body[class*=issues2017-july] .issue-header h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;color: #0c79fc;}
+body[class*=issues2017-july] .issue-header h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.2rem;line-height: 1.8rem;color: #a3a3ac;}
+body[class*=issues2017-july] article {position: relative;width: 47.22222%;float: left;margin-left: 1.38889%;margin-left: 26.38889%;margin-right: 1.38889%;margin-bottom: 5rem;}
+body[class*=issues2017-july] article .issue-piece-tease {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2.6rem;line-height: 3.9rem;margin-bottom: 1.2rem;}
+body[class*=issues2017-july] article .issue-piece-meta {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #a3a3ac;}
+body[class*=issues2017-july] article .issue-piece-genre a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;color: #0c79fc;margin-left: 2rem;}
+body[class*=issues2017-july] article .issue-piece-genre a:hover {color: #a3a3ac;}
+body[class*=issues2017-july] article h1 a {display: block;color: #ff3b2f;font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2rem;line-height: 3rem;}
+body[class*=issues2017-july] article h1 a:hover {color: #a3a3ac;}
+.issue-back.back-next-gen a {color: #0c79fc;border: 2px solid #0c79fc;}
+.issue-back.back-next-gen a:after {border: 2px solid #0c79fc;}
+.issue-back.back-next-gen a:hover {color: #ff3b2f;border: 2px solid #ff3b2f;}
+.issue-back.back-next-gen a:hover:after {border: 2px solid #ff3b2f;}
+.issue-feb2018, .post-featured .featured-issue.issue-feb2018 {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 300px;margin-top: 3rem;background: linear-gradient(to bottom right,#fff,#6fe7dd);text-align: center;}
+.issue-feb2018 .issue-content, .post-featured .featured-issue.issue-feb2018 .issue-content {position: relative;top: 50%;transform: translateY(-50%);}
+.issue-feb2018 h1, .post-featured .featured-issue.issue-feb2018 h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;line-height: 3rem;margin-bottom: .6rem;}
+.issue-feb2018 h1 a, .post-featured .featured-issue.issue-feb2018 h1 a {color: #6639a6;}
+.issue-feb2018 h1 a:hover, .post-featured .featured-issue.issue-feb2018 h1 a:hover {color: #3490de;}
+.issue-feb2018 p, .post-featured .featured-issue.issue-feb2018 p {color: #521262;margin-bottom: 0;}
+.issue-feb2018 p:last-of-type, .post-featured .featured-issue.issue-feb2018 p:last-of-type {margin-bottom: 1.2rem;}
+.issue-feb2018 a.issue-bottom, .post-featured .featured-issue.issue-feb2018 a.issue-bottom {position: relative;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #3490de;padding: .4rem .8rem;border: 2px solid #3490de;border-radius: 2px;display: inline-block;transition: opacity .3s ease-in-out;}
+.issue-feb2018 a.issue-bottom:after, .post-featured .featured-issue.issue-feb2018 a.issue-bottom:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #3490de;border-radius: 2px;content: "";}
+.issue-feb2018 a.issue-bottom:hover, .post-featured .featured-issue.issue-feb2018 a.issue-bottom:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #6639a6;padding: .4rem .8rem;border: 2px solid #6639a6;border-radius: 2px;}
+.issue-feb2018 a.issue-bottom:hover:after, .post-featured .featured-issue.issue-feb2018 a.issue-bottom:hover:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #6639a6;border-radius: 2px;content: "";}
+body.page-issue-foul-play, body[class*=issues2018-february] {background: linear-gradient(to bottom right,#fff,#6fe7dd);background-attachment: fixed;color: #521262;}
+body.page-issue-foul-play .issue-header, body[class*=issues2018-february] .issue-header {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin: 6rem 0 10rem;text-align: center;}
+body.page-issue-foul-play .issue-header h1, body[class*=issues2018-february] .issue-header h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;color: #6639a6;}
+body.page-issue-foul-play .issue-header h2, body[class*=issues2018-february] .issue-header h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.2rem;line-height: 1.8rem;color: #521262;}
+body.page-issue-foul-play article, body[class*=issues2018-february] article {position: relative;width: 47.22222%;float: left;margin-left: 1.38889%;margin-left: 26.38889%;margin-right: 1.38889%;margin-bottom: 5rem;}
+body.page-issue-foul-play article .issue-piece-tease, body[class*=issues2018-february] article .issue-piece-tease {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2.6rem;line-height: 3.9rem;margin-bottom: 1.2rem;}
+body.page-issue-foul-play article .issue-piece-meta, body[class*=issues2018-february] article .issue-piece-meta {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #521262;}
+body.page-issue-foul-play article .issue-piece-genre a, body[class*=issues2018-february] article .issue-piece-genre a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;color: #6639a6;margin-left: 2rem;}
+body.page-issue-foul-play article .issue-piece-genre a:hover, body[class*=issues2018-february] article .issue-piece-genre a:hover {color: #521262;}
+body.page-issue-foul-play article h1 a, body[class*=issues2018-february] article h1 a {display: block;color: #3490de;font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2rem;line-height: 3rem;}
+body.page-issue-foul-play article h1 a:hover, body[class*=issues2018-february] article h1 a:hover {color: #521262;}
+.issue-back.back-next-gen a {color: #6639a6;border: 2px solid #6639a6;}
+.issue-back.back-next-gen a:after {border: 2px solid #6639a6;}
+.issue-back.back-next-gen a:hover {color: #3490de;border: 2px solid #3490de;}
+.issue-back.back-next-gen a:hover:after {border: 2px solid #3490de;}
+.issue__bug-feature, .post-featured .featured-issue.issue__bug-feature {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 300px;margin-top: 3rem;background: #53435b;text-align: center;}
+.issue__bug-feature .issue-content, .post-featured .featured-issue.issue__bug-feature .issue-content {position: relative;top: 50%;transform: translateY(-50%);}
+.issue__bug-feature h1, .post-featured .featured-issue.issue__bug-feature h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;line-height: 3rem;margin-bottom: .6rem;}
+.issue__bug-feature h1 a, .post-featured .featured-issue.issue__bug-feature h1 a {color: #fbd157;}
+.issue__bug-feature h1 a:hover, .post-featured .featured-issue.issue__bug-feature h1 a:hover {color: #ed9153;}
+.issue__bug-feature p, .post-featured .featured-issue.issue__bug-feature p {color: #fbede1;margin-bottom: 0;}
+.issue__bug-feature p:last-of-type, .post-featured .featured-issue.issue__bug-feature p:last-of-type {margin-bottom: 1.2rem;}
+.issue__bug-feature a.issue-bottom, .post-featured .featured-issue.issue__bug-feature a.issue-bottom {position: relative;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #ed9153;padding: .4rem .8rem;border: 2px solid #ed9153;border-radius: 2px;display: inline-block;transition: opacity .3s ease-in-out;}
+.issue__bug-feature a.issue-bottom:after, .post-featured .featured-issue.issue__bug-feature a.issue-bottom:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #ed9153;border-radius: 2px;content: "";}
+.issue__bug-feature a.issue-bottom:hover, .post-featured .featured-issue.issue__bug-feature a.issue-bottom:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #fbd157;padding: .4rem .8rem;border: 2px solid #fbd157;border-radius: 2px;}
+.issue__bug-feature a.issue-bottom:hover:after, .post-featured .featured-issue.issue__bug-feature a.issue-bottom:hover:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #fbd157;border-radius: 2px;content: "";}
+body.page-issue-bug-feature, body[class*=issues2018-september] {background: #53435b;background-attachment: fixed;color: #fbede1;}
+body.page-issue-bug-feature .issue-header, body[class*=issues2018-september] .issue-header {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin: 6rem 0 10rem;text-align: center;}
+body.page-issue-bug-feature .issue-header h1, body[class*=issues2018-september] .issue-header h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;color: #fbd157;}
+body.page-issue-bug-feature .issue-header h2, body[class*=issues2018-september] .issue-header h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.2rem;line-height: 1.8rem;color: #fbede1;}
+body.page-issue-bug-feature article, body[class*=issues2018-september] article {position: relative;width: 47.22222%;float: left;margin-left: 1.38889%;margin-left: 26.38889%;margin-right: 1.38889%;margin-bottom: 5rem;}
+body.page-issue-bug-feature article .issue-piece-tease, body[class*=issues2018-september] article .issue-piece-tease {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2.6rem;line-height: 3.9rem;margin-bottom: 1.2rem;}
+body.page-issue-bug-feature article .issue-piece-meta, body[class*=issues2018-september] article .issue-piece-meta {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #fbede1;}
+body.page-issue-bug-feature article .issue-piece-genre a, body[class*=issues2018-september] article .issue-piece-genre a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;color: #fbd157;margin-left: 2rem;}
+body.page-issue-bug-feature article .issue-piece-genre a:hover, body[class*=issues2018-september] article .issue-piece-genre a:hover {color: #fbede1;}
+body.page-issue-bug-feature article h1 a, body[class*=issues2018-september] article h1 a {display: block;color: #ed9153;font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2rem;line-height: 3rem;}
+body.page-issue-bug-feature article h1 a:hover, body[class*=issues2018-september] article h1 a:hover {color: #fbede1;}
+.issue-back.back-next-gen a {color: #fbd157;border: 2px solid #fbd157;}
+.issue-back.back-next-gen a:after {border: 2px solid #fbd157;}
+.issue-back.back-next-gen a:hover {color: #ed9153;border: 2px solid #ed9153;}
+.issue-back.back-next-gen a:hover:after {border: 2px solid #ed9153;}
+.issue__double-click, .post-featured .featured-issue.issue__double-click {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;height: 300px;margin-top: 3rem;background: #48435c;text-align: center;}
+.issue__double-click .issue-content, .post-featured .featured-issue.issue__double-click .issue-content {position: relative;top: 50%;transform: translateY(-50%);}
+.issue__double-click h1, .post-featured .featured-issue.issue__double-click h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;line-height: 3rem;margin-bottom: .6rem;}
+.issue__double-click h1 a, .post-featured .featured-issue.issue__double-click h1 a {color: #efb2ab;}
+.issue__double-click h1 a:hover, .post-featured .featured-issue.issue__double-click h1 a:hover {color: #c6d0d7;}
+.issue__double-click p, .post-featured .featured-issue.issue__double-click p {color: #e59286;margin-bottom: 0;}
+.issue__double-click p:last-of-type, .post-featured .featured-issue.issue__double-click p:last-of-type {margin-bottom: 1.2rem;}
+.issue__double-click a.issue-bottom, .post-featured .featured-issue.issue__double-click a.issue-bottom {position: relative;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #c6d0d7;padding: .4rem .8rem;border: 2px solid #c6d0d7;border-radius: 2px;display: inline-block;transition: opacity .3s ease-in-out;}
+.issue__double-click a.issue-bottom:after, .post-featured .featured-issue.issue__double-click a.issue-bottom:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #c6d0d7;border-radius: 2px;content: "";}
+.issue__double-click a.issue-bottom:hover, .post-featured .featured-issue.issue__double-click a.issue-bottom:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1rem;line-height: 1.5rem;color: #efb2ab;padding: .4rem .8rem;border: 2px solid #efb2ab;border-radius: 2px;}
+.issue__double-click a.issue-bottom:hover:after, .post-featured .featured-issue.issue__double-click a.issue-bottom:hover:after {position: absolute;left: -14px;bottom: -14px;width: 14px;height: 14px;border: 2px solid #efb2ab;border-radius: 2px;content: "";}
+body.page-issue-double-click, body[class*=issues2019-may] {background: #48435c;background-attachment: fixed;color: #e59286;}
+body.page-issue-double-click .issue-header, body[class*=issues2019-may] .issue-header {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin: 0 0 3rem;text-align: center;}
+body.page-issue-double-click .issue-header h1, body[class*=issues2019-may] .issue-header h1 {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;color: #efb2ab;}
+body.page-issue-double-click .issue-header h2, body[class*=issues2019-may] .issue-header h2 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.2rem;line-height: 1.8rem;color: #e59286;}
+body.page-issue-double-click article, body[class*=issues2019-may] article {position: relative;width: 47.22222%;float: left;margin-left: 1.38889%;margin-left: 26.38889%;margin-right: 1.38889%;margin-bottom: 3rem;}
+body.page-issue-double-click article .issue-piece-tease, body[class*=issues2019-may] article .issue-piece-tease {font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2.6rem;line-height: 3.9rem;margin-bottom: 1.2rem;}
+body.page-issue-double-click article .issue-piece-meta, body[class*=issues2019-may] article .issue-piece-meta {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #e59286;}
+body.page-issue-double-click article .issue-piece-genre a, body[class*=issues2019-may] article .issue-piece-genre a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;color: #efb2ab;margin-left: 2rem;}
+body.page-issue-double-click article .issue-piece-genre a:hover, body[class*=issues2019-may] article .issue-piece-genre a:hover {color: #e59286;}
+body.page-issue-double-click article h1 a, body[class*=issues2019-may] article h1 a {display: block;color: #c6d0d7;font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 2rem;line-height: 3rem;}
+body.page-issue-double-click article h1 a:hover, body[class*=issues2019-may] article h1 a:hover {color: #e59286;}
+.issue-back.back-next-gen a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #efb2ab;padding: .4rem .8rem;border: 2px solid #efb2ab;border-radius: 2px;}
+.issue-back.back-next-gen a:after {position: absolute;left: -18px;bottom: -18px;width: 18px;height: 18px;border: 2px solid #efb2ab;border-radius: 2px;content: "";}
+.issue-back.back-next-gen a:hover {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.1rem;line-height: 1.65rem;color: #c6d0d7;padding: .4rem .8rem;border: 2px solid #c6d0d7;border-radius: 2px;}
+.issue-back.back-next-gen a:hover:after {position: absolute;left: -18px;bottom: -18px;width: 18px;height: 18px;border: 2px solid #c6d0d7;border-radius: 2px;content: "";}
+.error-404 {width: 72.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+.error-404 h1 {margin-bottom: 16px;margin-bottom: 1rem;}
+.error-404 .search-form {margin-bottom: 32px;margin-bottom: 2rem;}
+.error-404 .error-404-recent {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.5rem;line-height: 2.25rem;margin-bottom: 16px;margin-bottom: 1rem;}
+.search-page {width: 72.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+.search-page>h1 {margin-bottom: 16px;margin-bottom: 1rem;}
+form.search-form {position: relative;}
+form.search-form span {display: none;}
+form.search-form input {border: 1px solid #999;border-radius: 0;margin: 0;}
+form.search-form input.search-field {max-width: 100%;padding: 8px;color: #542437;}
+form.search-form input.search-field, form.search-form input.search-submit {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .9rem;line-height: 1.35rem;}
+form.search-form input.search-submit {position: relative;right: 10px;padding: 8px 6px;color: #c02942;border: 1px solid #542437;background: #fff;}
+form.search-form input.search-submit:hover {color: #542437;cursor: pointer;}
+@media only screen and (min-width:320px) and (max-width:900px) {blockquote, ol, p, span, ul {font-size: .8rem;line-height: 1.2rem;margin-bottom: .96rem;}
+	blockquote, h1, h2, h3, h4, h5, h6, ol, p, span, ul {font-family: Vollkorn,serif;font-weight: 400;}
+	h1, h2, h3, h4, h5, h6 {font-size: 1.334rem;line-height: 2.001rem;}
+	.poetry-tab-one {width: 1.5rem;}
+	.poetry-tab-two {width: 3rem;}
+	.poetry-tab-three {width: 4.5rem;}
+	.poetry-tab-four {width: 6rem;}
+	.poetry-tab-six {width: 9rem;}
+	#header {height: 140px;background-size: 700px auto;background-position: 45% 50%;}
+	#header .title {margin-top: 51.2px;margin-top: 3.2rem;}
+	#header .title img {width: 40px;}
+	#header .title h1.site-title {font-family: Roboto Slab,serif;font-weight: 400;font-size: 2rem;line-height: 3rem;top: -9px;left: 20px;}
+	nav a {display: block;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6003rem;line-height: .90045rem;}
+	.featured-work section.post .meta {width: 100%;display: block;padding: 48px 16px 16px;padding: 3rem 1rem 1rem;}
+	.featured-work section.post .excerpt {width: 100%;display: block;padding: 16px;padding: 1rem;}
+	.featured-work section.post .excerpt p {font-family: Vollkorn,serif;font-weight: 400;font-size: .9338rem;line-height: 1.4007rem;}
+	.featured-read-more {margin-top: 21.344px;margin-top: 1.334rem;font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6003rem;line-height: .90045rem;}
+	.featured-read-more a {margin-left: 10.672px;margin-left: .667rem;}
+	.from-the-airship .airship-banner {background-position: 0 37px;}
+	.from-the-airship .airship-banner h1 {font-family: Vollkorn,serif;font-weight: 400;font-size: 1.1339rem;line-height: 1.70085rem;}
+	.from-the-airship .airship-banner img {top: 22px;left: 2px;}
+	.airship-loop {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+	.nav-newer, .nav-older {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6003rem;line-height: .90045rem;}
+	.entry-header, .page-header {height: 200px;}
+	.work-full .meta {width: 63.88889%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;padding-top: 57.6px;padding-top: 3.6rem;}
+	.airship-full .meta, .page-full .page-header .meta {padding: 57.6px 32px 0;padding: 3.6rem 2rem 0;}
+	.work-full .entry-content {width: 97.22222%;float: left;margin-right: 1.38889%;margin-left: 1.38889%;}
+	.airship-full .entry-content, .page-full .entry-content {width: 96.2963%;float: left;margin-left: 1.85185%;margin-left: 1.38889%;margin-right: 1.85185%;}
+	.airship-full, .page-full, .work-full {width: 95.83333%;float: left;margin-right: 2.08333%;margin-left: 2.08333%;}
+	.airship-full aside, .page-full aside, .work-full aside {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6003rem;line-height: .90045rem;}
+	.airship-desc {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .667rem;line-height: 1.0005rem;}
+	.entry-title-small {font-size: 1.1339rem;line-height: 1.70085rem;}
+	.entry-title-large, .entry-title-small {font-family: Vollkorn,serif;font-weight: 400;}
+	.entry-title-large {font-size: 2.001rem;line-height: 3.0015rem;line-height: 2rem;}
+	.entry-author-small {font-size: .6003rem;line-height: .90045rem;margin-bottom: 10.672px;margin-bottom: .667rem;}
+	.entry-author-large, .entry-author-small {font-family: Ubuntu,sans-serif;font-weight: 500;margin-right: 21.344px;margin-right: 1.334rem;}
+	.entry-author-large {font-size: .8004rem;line-height: 1.2006rem;}
+	.entry-time {margin-right: 21.344px;margin-right: 1.334rem;}
+	.entry-time-small {font-size: .6003rem;line-height: .90045rem;margin-bottom: 10.672px;margin-bottom: .667rem;}
+	.entry-time-large, .entry-time-small {font-family: Ubuntu,sans-serif;font-weight: 500;}
+	.entry-time-large {font-size: .8004rem;line-height: 1.2006rem;}
+	.entry-cats-small, .entry-tags-small {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6003rem;line-height: .90045rem;margin-bottom: 10.672px;margin-bottom: .667rem;}
+	.entry-cats-small a, .entry-tags-small a {margin-right: 10.672px;margin-right: .667rem;}
+	.entry-cats-large, .entry-tags-large {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8004rem;line-height: 1.2006rem;margin-right: 21.344px;margin-right: 1.334rem;}
+	.entry-cats-large a, .entry-tags-large a {margin-right: 10.672px;margin-right: .667rem;}
+	.nine-stack .meta, .nine-stack a.image {width: 96.2963%;float: left;margin-left: 1.85185%;margin-right: 1.85185%;}
+	.nine-stack .meta {margin-top: 16px;margin-top: 1rem;}
+	.masthead-editor {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+	.masthead-editor, .masthead-editor .masthead-images {margin-bottom: 32px;margin-bottom: 2rem;}
+	.sidebar {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;margin-top: 64px;margin-top: 4rem;}
+	.sidebar [class^=sidebar]:first-of-type {border-top: 1px solid hsla(0,0%,60%,.2);padding-top: .8rem;}
+	.sidebar [class^=sidebar] h1 {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8004rem;line-height: 1.2006rem;margin-bottom: 8.5376px;margin-bottom: .5336rem;}
+	.sidebar [class^=sidebar] p {font-family: Vollkorn,serif;font-weight: 400;font-size: .6003rem;line-height: .90045rem;}
+	.sidebar .sidebar-about p a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .5336rem;line-height: .8004rem;}
+	.sidebar .sidebar-archive li, .sidebar .sidebar-cats a, .sidebar .sidebar-social a, .sidebar .sidebar-tags a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6003rem;line-height: .90045rem;margin-right: 10.672px;margin-right: .667rem;}
+	.sidebar .sidebar-archive li {display: inline-block;}
+	.archives {width: 100%;float: left;}
+	.archives>h1 {margin-bottom: 42.688px;margin-bottom: 2.668rem;}
+	.error-404 {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+	.error-404 h1 {margin-bottom: 10.672px;margin-bottom: .667rem;}
+	.error-404 .search-form {margin-bottom: 21.344px;margin-bottom: 1.334rem;}
+	.error-404 .error-404-recent {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: 1.0005rem;line-height: 1.50075rem;margin-bottom: 10.672px;margin-bottom: .667rem;}
+	.search-page {width: 97.22222%;float: left;margin-left: 1.38889%;margin-right: 1.38889%;}
+	.search-page>h1 {margin-bottom: 10.672px;margin-bottom: .667rem;}
+	#colophon {width: 100%;height: 533.6px;margin-top: 96px;margin-top: 6rem;padding: 16px;padding: 1rem;padding-top: 32px;padding-top: 2rem;}
+	#colophon a {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6003rem;line-height: .90045rem;}
+	#colophon .footer-nav a:first-of-type {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .8004rem;line-height: 1.2006rem;}
+	#colophon .footer-genres, #colophon .footer-rights, #colophon .footer-social {margin-top: 18.1424px;margin-top: 1.1339rem;}
+	#colophon .footer-rights p {font-family: Ubuntu,sans-serif;font-weight: 500;font-size: .6003rem;line-height: .90045rem;}
+	#colophon .phoenix-down {width: 30px;top: 410px;right: 0;}}

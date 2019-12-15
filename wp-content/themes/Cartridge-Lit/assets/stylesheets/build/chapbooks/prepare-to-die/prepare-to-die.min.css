@@ -1,0 +1,162 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald");
+@import url("http://fonts.googleapis.com/css?family=Merriweather");
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:after, blockquote:before, q:after, q:before {content: "";content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+blockquote, ol, p, span, ul {color: #303030;font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1.2rem;line-height: 1.8rem;margin-bottom: 1.2rem;}
+em, i {font-style: italic;line-height: 1;}
+b, strong {font-weight: 600;}
+h1, h2, h3, h4, h5, h6 {color: #303030;font-family: Crimson Text,Georgia,serif;font-weight: 600;font-size: 2rem;line-height: 3rem;}
+a {color: #c02942;text-decoration: none;}
+a:hover {color: #542437;}
+blockquote {padding-left: 1.4rem;border-left: 5px solid #542437;}
+[class^=poetry-tab] {display: inline-block;}
+.poetry-tab-one {width: 3rem;}
+.poetry-tab-two {width: 6rem;}
+.poetry-tab-three {width: 9rem;}
+.poetry-tab-four {width: 12rem;}
+.poetry-tab-six {width: 18rem;}
+body {margin: 0;background: #040001;overflow-x: hidden;}
+.container {max-width: 70em;margin-left: auto;margin-right: auto;position: relative;}
+.container:after {content: " ";display: block;clear: both;}
+.twelve {width: 100%;}
+.six, .twelve {box-sizing: border-box;float: left;padding-left: 1.38889%;padding-right: 1.38889%;}
+.six {width: 50%;}
+nav {display: none;width: 100%;height: 40px;position: fixed;top: 0;left: 0;background-color: #040001;z-index: 4;}
+nav .nav-title {margin-left: 2rem;}
+nav .nav-title h1 {font-size: 1.8rem;line-height: 2.7rem;color: #fff;}
+nav .nav-title h1, nav .nav-title h2 {font-family: Oswald,sans-serif;font-weight: 400;text-transform: uppercase;display: inline-block;}
+nav .nav-title h2 {font-size: 1.4rem;line-height: 2.1rem;color: #fff;color: #c02942;position: relative;top: -3px;margin-left: 1rem;}
+nav .nav-toc {height: 40px;position: absolute;top: 0;left: 50%;margin-left: -200px;background-color: #040001;overflow: hidden;}
+nav .nav-toc a {display: block;position: relative;font-family: Vollkorn,serif;font-weight: 400;font-size: 1rem;line-height: 1.5rem;margin: 0 2rem;padding: 10px 0 6px;}
+nav .nav-toc a.nav-item-lit {color: #fff;}
+nav .nav-toc .nav-menu {width: 20px;height: 20px;position: fixed;top: 11px;margin-left: 8px;padding-left: 1.25em;}
+nav .nav-toc .nav-menu:hover {cursor: pointer;}
+nav .nav-toc .nav-menu:before {content: "";position: absolute;left: 0;top: .25em;width: 1em;height: .15em;background: #fff;box-shadow: 0 .25em 0 0 #fff,0 .5em 0 0 #fff;}
+nav .nav-open {height: auto;}
+nav .nav-cartridge {position: absolute;top: 0;right: 2rem;}
+nav .nav-cartridge h2 {font-family: Oswald,sans-serif;font-weight: 400;font-size: 1rem;line-height: 1.5rem;text-transform: uppercase;color: #fff;margin-top: 9px;}
+.prepare-header {height: 500px;}
+.prepare-header div {width: 100%;height: 30%;position: relative;overflow: hidden;transform-style: preserve-3d;}
+.prepare-header div h1 {font-family: Oswald,sans-serif;font-weight: 400;font-size: 10rem;line-height: 15rem;text-transform: uppercase;color: #fff;position: relative;display: block;margin-left: 4rem;top: 50%;transform: translateY(-52%);}
+.prepare-header .ptd-header-prepare {background: url("../../../../images/chapbooks/prepare-to-die/header_title_2.jpg");background-size: cover;}
+.prepare-header .ptd-header-to {background: url("../../../../images/chapbooks/prepare-to-die/header_title_1.jpg");background-size: cover;}
+.prepare-header .ptd-header-to h2 {top: 30%;font-size: 2rem;line-height: 3rem;}
+.prepare-header .ptd-header-to h2, .prepare-header .ptd-header-to h3 {position: absolute;right: 4rem;font-family: Oswald,sans-serif;font-weight: 400;text-transform: uppercase;color: #fff;}
+.prepare-header .ptd-header-to h3 {bottom: 30%;font-size: 1.2rem;line-height: 1.8rem;}
+.prepare-header .ptd-header-die {background: url("../../../../images/chapbooks/prepare-to-die/header_title_3.jpg");background-size: cover;}
+.prepare-toc {padding-top: 256px;padding-top: 16rem;padding-bottom: 256px;padding-bottom: 16rem;}
+.prepare-toc h1 {font-family: Oswald,sans-serif;text-transform: uppercase;color: #fff;}
+.prepare-toc a, .prepare-toc h1 {font-weight: 400;font-size: 1rem;line-height: 1.5rem;}
+.prepare-toc a {display: block;font-family: Vollkorn,serif;margin-top: 1rem;}
+.prepare-toc .six {white-space: nowrap;}
+.prepare-toc .six:last-of-type {height: 500px;}
+.prepare-toc .respawn-campfire {display: block;width: 500px;margin: 0 auto;}
+.prepare-toc .ptd-announce {font-family: Oswald,sans-serif;font-weight: 400;font-size: 8rem;line-height: 12rem;text-transform: uppercase;color: #fff;position: relative;}
+.prepare-toc .ptd-announce:first-of-type {margin-top: -10rem;}
+.prepare-toc .ptd-announce:last-of-type {margin-top: 10rem;}
+.prepare-content {height: 1500px;background: #040001;position: relative;overflow: visible;}
+.prepare-content:focus {outline: 0;}
+.prepare-content p {font-family: Merriweather,serif;font-weight: 400;font-size: .9rem;line-height: 1.35rem;line-height: 1.5rem;color: #fff;}
+.demon-is-a-stupid-word, .each-of-these-walls-is-grander, .he-is-willing-and-fervent-he-teases, .here-replacement, .hunch-girl-and-the-crow-will-carry-you-out, .i-am-the-callow-partner, .my-brothers-are-npcs, .ptd-squared, .sharpen-your-weapon-swing-two-hands, .the-cat-lives-behind, .under-hypnosis-eyes-spinning, .you-must-also-have-a-mineral-nature {box-sizing: border-box;width: 66.66667%;width: 300px;float: left;padding-left: 1.38889%;padding-right: 1.38889%;position: relative;}
+.demon-is-a-stupid-word p, .each-of-these-walls-is-grander p, .he-is-willing-and-fervent-he-teases p, .here-replacement p, .hunch-girl-and-the-crow-will-carry-you-out p, .i-am-the-callow-partner p, .my-brothers-are-npcs p, .ptd-squared p, .sharpen-your-weapon-swing-two-hands p, .the-cat-lives-behind p, .under-hypnosis-eyes-spinning p, .you-must-also-have-a-mineral-nature p {text-align: justify;margin-bottom: 0;margin-bottom: -1.5rem;}
+.demon-is-a-stupid-word p:nth-child(n+2):after, .each-of-these-walls-is-grander p:nth-child(n+2):after, .he-is-willing-and-fervent-he-teases p:nth-child(n+2):after, .here-replacement p:nth-child(n+2):after, .hunch-girl-and-the-crow-will-carry-you-out p:nth-child(n+2):after, .i-am-the-callow-partner p:nth-child(n+2):after, .my-brothers-are-npcs p:nth-child(n+2):after, .ptd-squared p:nth-child(n+2):after, .sharpen-your-weapon-swing-two-hands p:nth-child(n+2):after, .the-cat-lives-behind p:nth-child(n+2):after, .under-hypnosis-eyes-spinning p:nth-child(n+2):after, .you-must-also-have-a-mineral-nature p:nth-child(n+2):after {content: "";display: inline-block;width: 100%;}
+.demon-is-a-stupid-word p:first-of-type, .each-of-these-walls-is-grander p:first-of-type, .he-is-willing-and-fervent-he-teases p:first-of-type, .here-replacement p:first-of-type, .hunch-girl-and-the-crow-will-carry-you-out p:first-of-type, .i-am-the-callow-partner p:first-of-type, .my-brothers-are-npcs p:first-of-type, .ptd-squared p:first-of-type, .sharpen-your-weapon-swing-two-hands p:first-of-type, .the-cat-lives-behind p:first-of-type, .under-hypnosis-eyes-spinning p:first-of-type, .you-must-also-have-a-mineral-nature p:first-of-type {font-family: Oswald,sans-serif;font-weight: 400;font-size: 5rem;line-height: 7.5rem;line-height: 3rem;text-transform: uppercase;color: #fff;position: relative;float: left;top: 4px;margin-right: 4px;}
+.demon-is-a-stupid-word p:nth-of-type(2), .demon-is-a-stupid-word p:nth-of-type(3), .demon-is-a-stupid-word p:nth-of-type(4), .each-of-these-walls-is-grander p:nth-of-type(2), .each-of-these-walls-is-grander p:nth-of-type(3), .each-of-these-walls-is-grander p:nth-of-type(4), .he-is-willing-and-fervent-he-teases p:nth-of-type(2), .he-is-willing-and-fervent-he-teases p:nth-of-type(3), .he-is-willing-and-fervent-he-teases p:nth-of-type(4), .here-replacement p:nth-of-type(2), .here-replacement p:nth-of-type(3), .here-replacement p:nth-of-type(4), .hunch-girl-and-the-crow-will-carry-you-out p:nth-of-type(2), .hunch-girl-and-the-crow-will-carry-you-out p:nth-of-type(3), .hunch-girl-and-the-crow-will-carry-you-out p:nth-of-type(4), .i-am-the-callow-partner p:nth-of-type(2), .i-am-the-callow-partner p:nth-of-type(3), .i-am-the-callow-partner p:nth-of-type(4), .my-brothers-are-npcs p:nth-of-type(2), .my-brothers-are-npcs p:nth-of-type(3), .my-brothers-are-npcs p:nth-of-type(4), .ptd-squared p:nth-of-type(2), .ptd-squared p:nth-of-type(3), .ptd-squared p:nth-of-type(4), .sharpen-your-weapon-swing-two-hands p:nth-of-type(2), .sharpen-your-weapon-swing-two-hands p:nth-of-type(3), .sharpen-your-weapon-swing-two-hands p:nth-of-type(4), .the-cat-lives-behind p:nth-of-type(2), .the-cat-lives-behind p:nth-of-type(3), .the-cat-lives-behind p:nth-of-type(4), .under-hypnosis-eyes-spinning p:nth-of-type(2), .under-hypnosis-eyes-spinning p:nth-of-type(3), .under-hypnosis-eyes-spinning p:nth-of-type(4), .you-must-also-have-a-mineral-nature p:nth-of-type(2), .you-must-also-have-a-mineral-nature p:nth-of-type(3), .you-must-also-have-a-mineral-nature p:nth-of-type(4) {margin-left: 38px;}
+.demon-is-a-stupid-word p:last-of-type, .each-of-these-walls-is-grander p:last-of-type, .he-is-willing-and-fervent-he-teases p:last-of-type, .here-replacement p:last-of-type, .hunch-girl-and-the-crow-will-carry-you-out p:last-of-type, .i-am-the-callow-partner p:last-of-type, .my-brothers-are-npcs p:last-of-type, .ptd-squared p:last-of-type, .sharpen-your-weapon-swing-two-hands p:last-of-type, .the-cat-lives-behind p:last-of-type, .under-hypnosis-eyes-spinning p:last-of-type, .you-must-also-have-a-mineral-nature p:last-of-type {text-align: left;}
+.evil-does-not-work-like-a-network, .fleets-of-labor-made-this-marked-infrastructure, .ghosts-are-where-the-bodies-bled-out, .my-shoulders-curve-like-elbows-in-a-nutshell-encasement, .now-a-note-on-the-world-economy, .ptd-paragraphs, .who-was-the-magellan-that-cartographed-this-place {float: left;position: relative;}
+.evil-does-not-work-like-a-network p:first-of-type, .fleets-of-labor-made-this-marked-infrastructure p:first-of-type, .ghosts-are-where-the-bodies-bled-out p:first-of-type, .my-shoulders-curve-like-elbows-in-a-nutshell-encasement p:first-of-type, .now-a-note-on-the-world-economy p:first-of-type, .ptd-paragraphs p:first-of-type, .who-was-the-magellan-that-cartographed-this-place p:first-of-type {font-family: Oswald,sans-serif;font-weight: 400;font-size: 1rem;line-height: 1.5rem;text-transform: uppercase;color: #fff;}
+.evil-does-not-work-like-a-network .ptd-paragraphs-fix, .fleets-of-labor-made-this-marked-infrastructure .ptd-paragraphs-fix, .ghosts-are-where-the-bodies-bled-out .ptd-paragraphs-fix, .my-shoulders-curve-like-elbows-in-a-nutshell-encasement .ptd-paragraphs-fix, .now-a-note-on-the-world-economy .ptd-paragraphs-fix, .ptd-paragraphs .ptd-paragraphs-fix, .who-was-the-magellan-that-cartographed-this-place .ptd-paragraphs-fix {font-family: Merriweather,serif;font-weight: 400;font-size: .9rem;line-height: 1.35rem;color: #fff;text-transform: none;}
+#each-of-these-walls-is-grander {height: 906px;background: url("../../../../images/chapbooks/prepare-to-die/each-of-these-walls-is-grander.jpg");background-position: 50%;background-repeat: no-repeat;}
+.each-of-these-walls-is-grander {margin-left: 58.33333%;margin-top: 8rem;}
+#under-hypnosis-eyes-spinning {background: linear-gradient(90deg,#040001,rgba(4,0,1,0) 20%,rgba(4,0,1,0) 80%,#040001),linear-gradient(#040001,rgba(4,0,1,0) 20%,rgba(4,0,1,0) 80%,#040001),url("../../../../images/chapbooks/prepare-to-die/under-hypnosis-eyes-spinning.jpg");background-size: 1500px 1500px;background-position: 50%;background-repeat: no-repeat;padding-top: 20px;}
+.under-hypnosis-eyes-spinning {margin-left: 16.66667%;margin-top: 29rem;}
+.under-hypnosis-eyes-spinning p:nth-of-type(2), .under-hypnosis-eyes-spinning p:nth-of-type(3), .under-hypnosis-eyes-spinning p:nth-of-type(4) {margin-left: 52px;}
+#my-shoulders-curve-like-elbows-in-a-nutshell-encasement {height: 850px;}
+.my-shoulders-curve-like-elbows-in-a-nutshell-encasement {margin-left: 33.33333%;margin-top: 18rem;}
+.my-shoulders-curve-like-elbows-in-a-nutshell-encasement img {position: absolute;top: -600px;left: -340px;}
+#i-am-the-callow-partner {background: url("../../../../images/chapbooks/prepare-to-die/i-am-the-callow-partner.jpg");background-position: 50%;background-repeat: no-repeat;height: 1000px;}
+.i-am-the-callow-partner {margin-left: 45.83333%;margin-top: 24rem;}
+#my-brothers-are-npcs {height: 1200px;background: url("../../../../images/chapbooks/prepare-to-die/my-brothers-are-npcs.jpg");background-position: 50%;background-repeat: no-repeat;}
+.my-brothers-are-npcs {margin-left: 66.66667%;margin-top: 8rem;}
+.my-brothers-are-npcs p:nth-of-type(2), .my-brothers-are-npcs p:nth-of-type(3), .my-brothers-are-npcs p:nth-of-type(4) {margin-left: 65px;}
+#fleets-of-labor-made-this-marked-infrastructure {height: 1000px;}
+.fleets-of-labor-made-this-marked-infrastructure {margin-top: 25rem;}
+.fleets-of-labor-made-this-marked-infrastructure p {opacity: 0;transition: opacity 1s;}
+.fleets-of-labor-made-this-marked-infrastructure .fleets-show {opacity: 1;}
+#sharpen-your-weapon-swing-two-hands {background: url("../../../../images/chapbooks/prepare-to-die/sharpen-your-weapon-swing-two-hands.jpg");background-position: 50%;background-repeat: no-repeat;height: 1125px;}
+.sharpen-your-weapon-swing-two-hands {margin-left: 75%;margin-top: 30rem;}
+.sharpen-your-weapon-swing-two-hands p:nth-of-type(2), .sharpen-your-weapon-swing-two-hands p:nth-of-type(3), .sharpen-your-weapon-swing-two-hands p:nth-of-type(4) {margin-left: 55px;}
+#hunch-girl-and-the-crow-will-carry-you-out {background: linear-gradient(90deg,#040001,rgba(4,0,1,0) 20%,rgba(4,0,1,0) 80%,#040001),linear-gradient(#040001,rgba(4,0,1,0) 20%,rgba(4,0,1,0) 80%,#040001),url("../../../../images/chapbooks/prepare-to-die/hunch-girl-and-the-crow-will-carry-you-out.jpg");background-size: 1500px 1500px;background-position: 50%;background-repeat: no-repeat;padding-top: 20rem;}
+.hunch-girl-and-the-crow-will-carry-you-out {margin-left: 41.66667%;margin-top: 40rem;}
+.hunch-girl-and-the-crow-will-carry-you-out p:nth-of-type(2), .hunch-girl-and-the-crow-will-carry-you-out p:nth-of-type(3), .hunch-girl-and-the-crow-will-carry-you-out p:nth-of-type(4) {margin-left: 55px;}
+#who-was-the-magellan-that-cartographed-this-place {background: linear-gradient(90deg,#040001,rgba(4,0,1,0) 20%,rgba(4,0,1,0) 80%,#040001),linear-gradient(#040001,rgba(4,0,1,0) 20%,rgba(4,0,1,0) 80%,#040001),url("../../../../images/chapbooks/prepare-to-die/who-was-the-magellan-that-cartographed-this-place.jpg");background-size: 1500px 1500px;background-position: 50%;background-repeat: no-repeat;margin-top: 6rem;}
+.who-was-the-magellan-that-cartographed-this-place {margin-top: 68rem;}
+#you-must-also-have-a-mineral-nature {height: 700px;background: url("../../../../images/chapbooks/prepare-to-die/you-must-also-have-a-mineral-nature.jpg");background-position: 50%;background-repeat: no-repeat;}
+#you-must-also-have-a-mineral-nature img {position: absolute;top: -150px;left: 800px;z-index: 1;}
+.you-must-also-have-a-mineral-nature {margin-left: 16.66667%;margin-top: 30px;}
+.you-must-also-have-a-mineral-nature p:nth-of-type(2), .you-must-also-have-a-mineral-nature p:nth-of-type(3), .you-must-also-have-a-mineral-nature p:nth-of-type(4) {margin-left: 46px;}
+#the-cat-lives-behind {overflow: hidden;height: 1340px;}
+.the-cat-lives-behind {margin-left: 66.66667%;margin-top: 20rem;}
+.the-cat-lives-behind .cat-1 {position: absolute;top: -100px;left: -800px;z-index: 2;}
+.the-cat-lives-behind .cat-2 {position: absolute;top: -200px;left: -1000px;z-index: 3;}
+[class*=soul-] {position: absolute;}
+[class*=soul-1-] {width: 42px;height: 64px;}
+[class*=soul-2-] {width: 59px;height: 58px;}
+[class*=soul-3-] {width: 80px;height: 90px;}
+[class*=soul-4-] {width: 59px;height: 58px;}
+[class*=soul-5-] {width: 81px;height: 90px;}
+.soul-1-1 {top: -100px;left: -124px;}
+.soul-1-2 {top: 0;left: 200px;}
+.soul-1-3 {top: 0;left: 621px;}
+.soul-1-4 {top: 0;left: 943px;}
+.soul-1-5 {top: 0;left: 87px;}
+.soul-1-6 {top: 0;left: 1107px;}
+.soul-1-7 {top: 600px;left: -87px;}
+.soul-1-8 {top: 800px;left: 331px;}
+.soul-2-1 {top: -200px;left: 1018px;}
+.soul-2-2 {top: 0;left: 348px;}
+.soul-3-1 {top: -2000px;left: 847px;}
+.soul-3-2 {top: 1200px;left: 160px;}
+.soul-4-1 {top: 0;left: 187px;}
+.soul-4-2 {top: 0;left: 401px;}
+.soul-4-3 {top: 0;left: 681px;}
+.soul-5-1 {top: 0;left: 500px;}
+.now-a-note-on-the-world-economy {margin-top: 40rem;}
+.he-is-willing-and-fervent-he-teases {position: absolute;top: 575px;right: 0;}
+.he-is-willing-and-fervent-he-teases p:nth-of-type(2), .he-is-willing-and-fervent-he-teases p:nth-of-type(3), .he-is-willing-and-fervent-he-teases p:nth-of-type(4) {margin-left: 55px;}
+[class*=bugzilla] {position: absolute;}
+.bugzilla-1 {top: 0;left: 646px;}
+.bugzilla-2 {top: 800px;left: 530px;}
+.bugzilla-3 {top: 560px;left: 45px;}
+.bugzilla-4 {top: 0;left: -100px;}
+.bugzilla-5 {top: 1300px;right: 0;}
+.bugzilla-6 {top: 340px;left: 460px;}
+.bugzilla-7 {top: 961px;left: 424px;}
+#demon-is-a-stupid-word {background: linear-gradient(90deg,#040001,rgba(4,0,1,0) 20%,rgba(4,0,1,0) 80%,#040001) 50%/1500px 1500px no-repeat,linear-gradient(#040001,rgba(4,0,1,.7) 20%,rgba(4,0,1,0) 50%,rgba(4,0,1,0) 80%,#040001) 50%/1500px 1500px no-repeat,url("../../../../images/chapbooks/prepare-to-die/demon-is-a-stupid-word.jpg") 50%/1500px 1500px no-repeat;}
+.demon-is-a-stupid-word {margin-left: 58.33333%;margin-top: 10rem;}
+.demon-is-a-stupid-word p:nth-of-type(2), .demon-is-a-stupid-word p:nth-of-type(3), .demon-is-a-stupid-word p:nth-of-type(4) {margin-left: 49px;}
+#ghosts-are-where-the-bodies-bled-out {background: url("../../../../images/chapbooks/prepare-to-die/ghosts-are-where-the-bodies-bled-out.jpg") no-repeat;background-size: 800px;background-position: 50% 10rem;}
+.ghosts-are-where-the-bodies-bled-out {margin-left: 25%;margin-top: 44rem;}
+#here-the-frame-rate-chugs-processing-a-deep-black {overflow: hidden;height: 1075px;}
+#here-the-frame-rate-chugs-processing-a-deep-black img {width: 2000px;position: absolute;top: 0;left: 0;z-index: 1;}
+#here-the-frame-rate-chugs-processing-a-deep-black .container {display: none;}
+.here-replacement {left: 206px;margin-top: 9rem;z-index: 2;-webkit-backface-visibility: hidden;-webkit-transform-style: preserve-3d;transform: rotate(3.5deg);}
+.here-replacement p:nth-of-type(2), .here-replacement p:nth-of-type(3), .here-replacement p:nth-of-type(4) {margin-left: 55px;}
+#evil-does-not-work-like-a-network {background: linear-gradient(90deg,#040001,rgba(4,0,1,0) 20%,rgba(4,0,1,0) 80%,#040001),linear-gradient(#040001,rgba(4,0,1,0) 20%,rgba(4,0,1,0) 80%,#040001);}
+#evil-does-not-work-like-a-network video.evil-does-not-webm {position: absolute;top: 0;left: 0;z-index: 1;width: 100%;}
+.evil-does-not-work-like-a-network {top: 50%;margin-top: -50px;margin-left: 10rem;z-index: 2;}
+#acknowledgements {height: 1000px;padding-top: 12rem;}
+#acknowledgements h1, #acknowledgements h2 {text-align: center;}
+#acknowledgements h1 {font-size: 6rem;line-height: 9rem;color: #fff;}
+#acknowledgements h1, #acknowledgements h2 {font-family: Oswald,sans-serif;font-weight: 400;text-transform: uppercase;}
+#acknowledgements h2 {font-size: 3rem;line-height: 4.5rem;color: #fff;color: #c02942;margin-bottom: 6rem;}
+#acknowledgements .ack-left {margin-left: 16.66667%;}
+#acknowledgements .ack-left, #acknowledgements .ack-right {box-sizing: border-box;width: 33.33333%;float: left;padding-left: 1.38889%;padding-right: 1.38889%;}
+#acknowledgements .ack-center {box-sizing: border-box;width: 50%;float: left;padding-left: 1.38889%;padding-right: 1.38889%;margin-left: 25%;margin-top: 4rem;margin-bottom: 8rem;}
+#acknowledgements p {color: #fff;}
+#acknowledgements .phoenix-down {width: 60px;display: block;margin: 0 auto 6rem;}

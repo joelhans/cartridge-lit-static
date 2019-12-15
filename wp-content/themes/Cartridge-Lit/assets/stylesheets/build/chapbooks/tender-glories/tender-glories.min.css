@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=VT323|Playfair+Display:400,400i,700");
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:after, blockquote:before, q:after, q:before {content: "";content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+blockquote, ol, p, span, ul {color: #303030;font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1.2rem;line-height: 1.8rem;margin-bottom: 1.2rem;}
+em, i {font-style: italic;line-height: 1;}
+b, strong {font-weight: 600;}
+h1, h2, h3, h4, h5, h6 {color: #303030;font-family: Crimson Text,Georgia,serif;font-weight: 600;font-size: 2rem;line-height: 3rem;}
+a {color: #c02942;text-decoration: none;}
+a:hover {color: #542437;}
+blockquote {padding-left: 1.4rem;border-left: 5px solid #542437;}
+[class^=poetry-tab] {display: inline-block;}
+.poetry-tab-one {width: 3rem;}
+.poetry-tab-two {width: 6rem;}
+.poetry-tab-three {width: 9rem;}
+.poetry-tab-four {width: 12rem;}
+.poetry-tab-six {width: 18rem;}
+@font-face {font-family: VeniceClassic;src: url("../../../../fonts/VeniceClassic.woff"),url("../../../../fonts/VeniceClassic.ttf");}
+.clickable {position: fixed;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%;z-index: 1;}
+* {cursor: url("../../../../images/chapbooks/tender-glories/cursor.png"),auto;}
+body {margin: 0;background: #fff;overflow-x: hidden;}
+.container {max-width: 50em;margin-left: auto;margin-right: auto;position: relative;}
+.container:after {content: " ";display: block;clear: both;}
+.tg-fm {padding-top: 6rem;text-align: center;}
+.tg-fm h1 {font-family: VeniceClassic,sans-serif;font-weight: 400;font-size: 6rem;line-height: 9rem;color: #000;}
+.tg-fm h2 {font-size: 3rem;line-height: 4.5rem;margin-bottom: 5rem;}
+.tg-fm h2, .tg-toc ul li {font-family: Playfair Display,serif;font-weight: 400;}
+.tg-toc ul li {font-size: 1rem;line-height: 1.5rem;font-weight: 700;}
+.tg-toc ul li ul li {font-weight: 400;margin-left: 2rem;}
+.tg-toc span {display: block;font-family: VT323,sans-serif;font-weight: 400;font-size: 1rem;line-height: 1.5rem;color: #000;letter-spacing: -.5px;text-align: center;margin-top: 4rem;}
+.tg-section {margin-bottom: 14rem;}
+.tg-section h1 {font-family: Playfair Display,serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;text-align: center;margin-bottom: 8rem;}
+.tg-section .tg-pixel {margin-bottom: 6rem;}
+.tg-section .tg-pixel h1 {font-family: VeniceClassic,sans-serif;font-weight: 400;font-size: 3rem;line-height: 4.5rem;color: #000;text-align: center;margin-bottom: 3rem;}
+.tg-section .tg-pixel p {font-family: VT323,sans-serif;font-weight: 400;font-size: 1.2rem;line-height: 1.8rem;color: #000;letter-spacing: -.5px;text-indent: 2rem;}
+.tg-section .tg-pixel p.tg-center {text-align: center;}
+.tg-section .tg-clean {margin-bottom: 6rem;}
+.tg-section .tg-clean h1 {font-style: italic;margin-bottom: 3rem;}
+.tg-section .tg-clean h1, .tg-section .tg-clean p {font-family: Playfair Display,serif;font-weight: 400;font-size: 1rem;line-height: 1.5rem;}
+.tg-section .tg-clean img {margin-bottom: 0;}
+.tg-section img {display: block;margin-bottom: 6rem;}
+.tg-section figure {margin-top: 3rem;margin-bottom: 3rem;text-align: center;}
+.tg-section figure img {margin: 0 auto;filter: grayscale(100%);display: inline;}
+.tg-section figure span {display: block;font-family: Playfair Display,serif;font-weight: 400;font-size: 1rem;line-height: 1.5rem;}
+.image-looper {position: relative;}
+.image-looper:before {left: -2000px;}
+.image-looper:after, .image-looper:before {content: "";display: block;width: 1600px;height: 100%;position: absolute;top: 0;transform: scaleX(-1);}
+.image-looper:after {right: -2000px;}
+.image-looper.rev img {transform: scaleY(-1);margin-bottom: 0;}
+.image-looper.rev:after, .image-looper.rev:before {transform: scaleX(-1) scaleY(-1);}
+.tg-curses-spells {margin-top: 14rem;}
+.tg-curses-spells .mountain {margin-left: -62.5px;}
+.tg-curses-spells .sky img {margin-left: -147.5px;}
+.tg-curses-spells .sky:before {left: -1242.5px;}
+.tg-curses-spells .sky:after, .tg-curses-spells .sky:before {background: url("../../../../images/chapbooks/tender-glories/sky.png");width: 1095px;}
+.tg-curses-spells .sky:after {right: -1242.5px;}
+.tg-curses-spells .mound {margin-left: -400px;}
+.tg-quiet-girls .desert {margin-left: -1200px;}
+.tg-quiet-girls .maze, .tg-unquiet-girls .clouds-01 img, .tg-unquiet-girls .clouds-01-rev img, .tg-unquiet-girls .clouds-02 img, .tg-unquiet-girls .clouds-02-rev img, .tg-unquiet-girls .clouds-03 img, .tg-unquiet-girls .clouds-03-rev img {margin-left: -400px;}
+.tg-unquiet-girls .clouds-01-rev:after, .tg-unquiet-girls .clouds-01-rev:before, .tg-unquiet-girls .clouds-01:after, .tg-unquiet-girls .clouds-01:before {background: url("../../../../images/chapbooks/tender-glories/clouds_01.png");}
+.tg-unquiet-girls .clouds-02-rev {margin-top: -100px;}
+.tg-unquiet-girls .clouds-02 {margin-bottom: -100px;}
+.tg-unquiet-girls .clouds-02-rev:after, .tg-unquiet-girls .clouds-02-rev:before, .tg-unquiet-girls .clouds-02:after, .tg-unquiet-girls .clouds-02:before {background: url("../../../../images/chapbooks/tender-glories/clouds_02.png");}
+.tg-unquiet-girls .clouds-03-rev:after, .tg-unquiet-girls .clouds-03-rev:before, .tg-unquiet-girls .clouds-03:after, .tg-unquiet-girls .clouds-03:before {background: url("../../../../images/chapbooks/tender-glories/clouds_03.png");}
+.tg-femme-fatales .moon {margin-left: 500px;}
+.tg-femme-fatales .woods img {margin-left: -400px;}
+.tg-femme-fatales .woods:after, .tg-femme-fatales .woods:before {background: url("../../../../images/chapbooks/tender-glories/woods.png");}
+.tg-femme-fatales .abstraction {margin-left: -387.5px;}
+.tg-mothers .hero {margin-left: -20px;}
+.tg-mothers .rainbow {margin-top: -200px;margin-bottom: -200px;}
+.tg-mothers .sky img {margin-left: -400px;}
+.tg-mothers .sky:after, .tg-mothers .sky:before {background: url("../../../../images/chapbooks/tender-glories/rainbow.png");}
+.tg-mothers .tapestry, .tg-mothers .tapestry-02 {margin-left: -400px;}
+.tg-mothers .dungeon {margin-left: -400px;margin-bottom: 0;}
+.images {position: relative;width: 100%;}
+.images .toc {position: absolute;left: 50%;margin-left: -767px;}
+footer {margin-top: 24rem;margin-bottom: 14rem;}
+footer h1 {font-size: 3rem;line-height: 4.5rem;margin-bottom: 4rem;}
+footer h1, footer p {font-family: Playfair Display,serif;font-weight: 400;}
+footer p {font-size: 1rem;line-height: 1.5rem;}
+footer p span {font-family: VT323,sans-serif;font-weight: 400;font-size: 1.2rem;line-height: 1.8rem;color: #000;letter-spacing: -.5px;}
+.glitch {position: relative;mix-blend-mode: darken;}
+.glitch:after, .glitch:before {content: attr(data-text);position: absolute;top: 0;width: 100%;}
+.glitch:before {left: -1px;text-shadow: 2px 0 rgba(255,0,0,.7);animation: a .8s infinite ease-in-out alternate-reverse;}
+.glitch:after {left: 1px;text-shadow: -2px 0 rgba(0,0,255,.7);animation: b .8s infinite ease-in-out alternate-reverse;}
+.glitch-small {position: relative;mix-blend-mode: darken;}
+.glitch-small:after, .glitch-small:before {content: attr(data-text);position: absolute;top: 0;width: 100%;}
+.glitch-small:before {left: -1px;text-shadow: 1px 0 rgba(255,0,0,.7);animation: c .8s infinite ease-in-out alternate-reverse;}
+.glitch-small:after {left: 1px;text-shadow: -1px 0 rgba(0,0,255,.7);animation: d .8s infinite ease-in-out alternate-reverse;}
+@keyframes a {0% {clip: rect(36px,9999px,9px,0);}
+	25% {clip: rect(25px,9999px,99px,0);}
+	50% {clip: rect(50px,9999px,102px,0);}
+	75% {clip: rect(30px,9999px,92px,0);}
+	to {clip: rect(91px,9999px,98px,0);}}
+@keyframes b {0% {top: -1px;left: 1px;clip: rect(65px,9999px,119px,0);}
+	25% {top: -6px;left: 4px;clip: rect(79px,9999px,19px,0);}
+	50% {top: -3px;left: 2px;clip: rect(68px,9999px,11px,0);}
+	75% {top: 0;left: -4px;clip: rect(95px,9999px,53px,0);}
+	to {top: -1px;left: -1px;clip: rect(31px,9999px,149px,0);}}
+@keyframes c {0% {clip: rect(1px,9999px,17px,0);}
+	25% {clip: rect(11px,9999px,38px,0);}
+	50% {clip: rect(28px,9999px,47px,0);}
+	75% {clip: rect(26px,9999px,34px,0);}
+	to {clip: rect(2px,9999px,4px,0);}}
+@keyframes d {0% {top: -1px;left: 1px;clip: rect(23px,9999px,50px,0);}
+	25% {top: -3px;left: 2px;clip: rect(30px,9999px,8px,0);}
+	50% {top: -3px;left: 2px;clip: rect(37px,9999px,4px,0);}
+	75% {top: 0;left: -4px;clip: rect(45px,9999px,27px,0);}
+	to {top: -1px;left: -1px;clip: rect(11px,9999px,59px,0);}}

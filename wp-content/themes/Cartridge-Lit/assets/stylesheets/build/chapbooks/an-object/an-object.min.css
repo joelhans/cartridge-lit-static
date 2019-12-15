@@ -1,0 +1,118 @@
+@import url("http://fonts.googleapis.com/css?family=Ubuntu:500|Libre+Baskerville:400|Montserrat");
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:after, blockquote:before, q:after, q:before {content: "";content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+blockquote, ol, p, span, ul {color: #303030;font-family: Crimson Text,Georgia,serif;font-weight: 400;font-size: 1.2rem;line-height: 1.8rem;margin-bottom: 1.2rem;}
+em, i {font-style: italic;line-height: 1;}
+b, strong {font-weight: 600;}
+h1, h2, h3, h4, h5, h6 {color: #303030;font-family: Crimson Text,Georgia,serif;font-weight: 600;font-size: 2rem;line-height: 3rem;}
+a {color: #c02942;text-decoration: none;}
+a:hover {color: #542437;}
+blockquote {padding-left: 1.4rem;border-left: 5px solid #542437;}
+[class^=poetry-tab] {display: inline-block;}
+.poetry-tab-one {width: 3rem;}
+.poetry-tab-two {width: 6rem;}
+.poetry-tab-three {width: 9rem;}
+.poetry-tab-four {width: 12rem;}
+.poetry-tab-six {width: 18rem;}
+html {box-sizing: border-box;overflow-y: scroll;}
+*, :after, :before {box-sizing: inherit;}
+body {position: relative;margin: 0;background: #fff;overflow: hidden;font-size: 16px;}
+.object-bg {position: absolute;left: 50%;transform: translate(-50%);width: 3000px;}
+.bg-ocean {top: 0;height: 4000px;background: url("../../../../images/chapbooks/an-object/bg_ocean.png");}
+.bg-ocean-beach {height: 320px;background: url("../../../../images/chapbooks/an-object/bg_ocean_beach.png");}
+.bg-beach {height: 3000px;background: url("../../../../images/chapbooks/an-object/bg_beach.png");}
+.bg-village-whealbrook {height: 1130px;background: url("../../../../images/chapbooks/an-object/bg_village_whealbrook.png");}
+.bg-forest-trans-up-one {height: 320px;background: url("../../../../images/chapbooks/an-object/bg_forest_trans_up.png");}
+.bg-forest-one {height: 640px;background: url("../../../../images/chapbooks/an-object/bg_forest.png");}
+.bg-forest-trans-down-one {height: 320px;background: url("../../../../images/chapbooks/an-object/bg_forest_trans_down.png");}
+.bg-snow-trans {height: 960px;background: url("../../../../images/chapbooks/an-object/bg_snow_trans.png");}
+.bg-snow {height: 20000px;background: url("../../../../images/chapbooks/an-object/bg_snow.png");}
+.bg-village-roundbeck {height: 2500px;background: url("../../../../images/chapbooks/an-object/bg_village_roundbeck.png");}
+.bg-forest-trans-up-two {height: 320px;background: url("../../../../images/chapbooks/an-object/bg_forest_trans_up.png");}
+.bg-forest-two {height: 1790px;background: url("../../../../images/chapbooks/an-object/bg_forest.png");}
+.bg-girl-one {width: 160px;height: 200px;transform: translate(460px);background: url("../../../../images/chapbooks/an-object/bg_girl_base.png");}
+.bg-girl-portal-one {width: 320px;height: 320px;transform: translate(380px);background: url("../../../../images/chapbooks/an-object/bg_girl_portal.png");}
+.bg-girl-two {width: 160px;height: 200px;transform: translate(-620px);background: url("../../../../images/chapbooks/an-object/bg_girl_light.png");}
+.bg-girl-portal-two {width: 320px;height: 320px;transform: translate(-700px);background: url("../../../../images/chapbooks/an-object/bg_girl_portal.png");}
+.bg-uptaten {width: 1280px;height: 1280px;transform: translate(20px);background: url("../../../../images/chapbooks/an-object/bg_uptaten.png");}
+.bg-girl-three {width: 160px;height: 200px;transform: translate(460px);background: url("../../../../images/chapbooks/an-object/bg_girl_knife.png");}
+.bg-girl-portal-three {width: 320px;height: 320px;transform: translate(380px);background: url("../../../../images/chapbooks/an-object/bg_girl_portal.png");}
+.bg-girl-four {width: 160px;height: 200px;transform: translate(-620px);background: url("../../../../images/chapbooks/an-object/bg_girl_water.png");}
+.bg-girl-portal-four {width: 320px;height: 320px;transform: translate(-700px);background: url("../../../../images/chapbooks/an-object/bg_girl_portal.png");}
+.bg-girl-five {width: 160px;height: 200px;transform: translate(460px);background: url("../../../../images/chapbooks/an-object/bg_girl_ghost.png");}
+.bg-girl-portal-five {width: 320px;height: 320px;transform: translate(380px);background: url("../../../../images/chapbooks/an-object/bg_girl_portal.png");}
+.bg-girl-six {width: 160px;height: 200px;transform: translate(-620px);background: url("../../../../images/chapbooks/an-object/bg_girl_ribbon.png");}
+.bg-girl-portal-six {width: 320px;height: 320px;transform: translate(-700px);background: url("../../../../images/chapbooks/an-object/bg_girl_portal.png");}
+.bg-forest-three {height: 640px;background: url("../../../../images/chapbooks/an-object/bg_forest.png");}
+.bg-forest-trans-down-two {height: 320px;background: url("../../../../images/chapbooks/an-object/bg_forest_trans_down.png");}
+.bg-village-whealbrook-two {height: 1650px;background: url("../../../../images/chapbooks/an-object/bg_village_whealbrook.png");}
+.bg-snow-trans-down {height: 960px;background: url("../../../../images/chapbooks/an-object/bg_snow_trans_down.png");}
+.bg-snow-trans-down-two {height: 320px;background: url("../../../../images/chapbooks/an-object/bg_snow_trans_down_two.png");}
+.bg-grass {height: 10000px;background: url("../../../../images/chapbooks/an-object/bg_grass.png");}
+.bg-grass-river {height: 320px;background: url("../../../../images/chapbooks/an-object/bg_grass_river.png"),url("../../../../images/chapbooks/an-object/bg_ocean.png");}
+.bg-cave {height: 960px;background: url("../../../../images/chapbooks/an-object/bg_cave.png");transform: translate(-950px);}
+.bg-cave-mouth {width: 320px;height: 320px;background: url("../../../../images/chapbooks/an-object/bg_cave_mouth.png");transform: translate(-650px);}
+.bg-cave-int {height: 10000px;background: url("../../../../images/chapbooks/an-object/bg_cave_int.png");}
+.bg-fadeout {height: 3000px;background: url("../../../../images/chapbooks/an-object/bg_fadeout.png");}
+.bg-faded {height: 3000px;background: #272729;}
+.interact-hover-box {position: absolute;width: 0;height: 0;border: 2px solid #000;border-radius: 3px;z-index: 3;transition: all .2s;pointer-events: none;}
+.interact-option {position: relative;cursor: pointer;text-align: center;z-index: 3;}
+.interact-option-noselect {cursor: not-allowed;text-decoration: line-through;text-align: center;}
+.interact-showing {visibility: visible !important;}
+.front-matter {position: relative;height: 800px;z-index: 2;}
+.front-matter p, .front-matter span {font-family: Libre Baskerville,sans-serif;font-weight: 400;font-size: 1rem;line-height: 1.5rem;color: #303030;}
+.fm-create-delete, .fm-creating, .fm-keyboard, .fm-title {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);padding: 3rem 5rem;background: #e6e6f0;}
+.fm-creating, .fm-keyboard, .fm-title {opacity: 0;visibility: hidden;}
+.fm-create-delete {width: 460px;height: 240px;padding: 5rem 5rem 3rem;background: url("../../../../images/chapbooks/an-object/fm-create-delete.png");}
+.fm-create-delete .fm-create, .fm-create-delete .fm-delete {padding: 4px 8px;}
+.fm-keyboard {width: 840px;height: 400px;padding: 5rem 5rem 3rem;background: url("../../../../images/chapbooks/an-object/fm-keyboard.png");list-style: none;}
+.fm-keyboard .fm-textarea {height: 38px;margin-bottom: .6rem;font-size: 1.6rem;line-height: 2.4rem;}
+.fm-keyboard .fm-enter-name, .fm-keyboard .fm-textarea {font-family: Montserrat,sans-serif;font-weight: 400;color: #303030;text-align: center;}
+.fm-keyboard .fm-enter-name {margin-bottom: 1.4rem;font-size: 1rem;line-height: 1.5rem;}
+.fm-keyboard .fm-enter-name-please {color: #c02942;}
+.fm-keyboard ul.fm-keyboard-keys-lowercase, .fm-keyboard ul.fm-keyboard-keys-uppercase {float: left;width: 50%;}
+.fm-keyboard ul.fm-keyboard-keys-lowercase li, .fm-keyboard ul.fm-keyboard-keys-uppercase li {display: block;float: left;width: 34px;height: 30px;}
+.fm-keyboard ul.fm-keyboard-options {clear: both;text-align: center;}
+.fm-keyboard ul.fm-keyboard-options li {display: inline-block;padding: 4px 8px;}
+.fm-keyboard ul.fm-keyboard-options li:first-of-type {margin-right: 2rem;}
+.fm-creating {width: 500px;height: 290px;padding: 4.5rem 5rem 3rem;background: url("../../../../images/chapbooks/an-object/fm-creating.png");}
+.fm-title {width: 740px;height: 340px;padding: 4.5rem 5rem 3rem 11rem;background: url("../../../../images/chapbooks/an-object/fm-title.png");}
+.fm-title h1 {font-family: Libre Baskerville,sans-serif;font-size: 3rem;line-height: 4.5rem;}
+.fm-title h1, .fm-title h2 {font-weight: 400;color: #303030;}
+.fm-title h2 {font-family: Montserrat,sans-serif;font-size: 1.3rem;line-height: 1.95rem;margin-top: 1rem;}
+.content {position: relative;}
+.container {max-width: 70em;margin-left: auto;margin-right: auto;margin-top: 10rem;}
+.container:after {content: " ";display: block;clear: both;}
+.content article {width: 100%;position: relative;}
+.content article .text {position: relative;width: 747px;margin: 0 auto 40rem;padding: 4rem 4rem 6rem;background: #999;z-index: 4;}
+.content article .text h1 {font-family: Montserrat,sans-serif;font-weight: 400;font-size: 2.6rem;line-height: 3.9rem;color: #303030;text-align: center;margin-bottom: 2rem;}
+.content article .text h2 {font-size: 1.2rem;line-height: 1.8rem;text-align: center;text-transform: uppercase;margin: 3rem auto 2rem;}
+.content article .text h2, .content article .text p {font-family: Libre Baskerville,sans-serif;font-weight: 400;color: #303030;}
+.content article .text p {font-size: 1rem;line-height: 1.5rem;line-height: 1.8rem;}
+.content article .img-attach {height: 100%;z-index: 1;}
+.img-attach .bg {position: absolute;width: 3000px;transform: translate(-50%);}
+.ocean {bottom: -100px;height: 4000px;background: url("../../../../images/chapbooks/an-object/bg_ocean.png");z-inbex: 1;}
+.ocean-beach {height: 320px;background: url("../../../../images/chapbooks/an-object/bg_ocean_beach.png");bottom: -350px;}
+.uptaten-towers {position: absolute;top: 1298px;right: -357px;}
+.coburg-castle {position: absolute;top: 1900px;left: -357px;}
+.back-matter {display: none;position: relative;min-height: 1200px;z-index: 2;}
+.bm-acknowledgments, .bm-continue, .bm-respite, .bm-sure {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);padding: 3rem 5rem;}
+.bm-acknowledgments, .bm-respite, .bm-sure {opacity: 0;visibility: hidden;}
+.bm-continue {width: 500px;height: 290px;padding: 5.5rem 5rem 3rem;background: url("../../../../images/chapbooks/an-object/bm-continue.png");}
+.bm-continue ul.bm-continue-options {clear: both;text-align: center;}
+.bm-continue ul.bm-continue-options li {display: inline-block;padding: 4px 8px;}
+.bm-continue ul.bm-continue-options li:first-of-type {margin-right: 2rem;}
+.bm-sure {width: 500px;height: 290px;padding: 6.5rem 5rem 3rem;background: url("../../../../images/chapbooks/an-object/bm-sure.png");}
+.bm-sure ul.bm-sure-options {clear: both;text-align: center;}
+.bm-sure ul.bm-sure-options li {display: inline-block;padding: 4px 8px;}
+.bm-sure ul.bm-sure-options li:first-of-type {margin-right: 2rem;}
+.bm-respite {width: 500px;height: 290px;padding: 7.5rem 5rem 3rem;background: url("../../../../images/chapbooks/an-object/bm-respite.png");}
+.bm-acknowledgments {width: 940px;height: auto;padding: 4.5rem 11rem 0;}
+.bm-acknowledgments h1 {margin-bottom: 2rem;}
+.bm-acknowledgments h1, .bm-acknowledgments p {color: #fff;text-shadow: 2px 2px 1px #000;}
+.flood {position: absolute;left: 50%;bottom: -2000px;transform: translate(-50%);width: 3000px;height: 2000px;background: url("../../../../images/chapbooks/an-object/bg_ocean_fadein.png") repeat-x,url("../../../../images/chapbooks/an-object/bg_ocean.png") repeat;z-index: 1;}
